@@ -21,7 +21,7 @@
   },
   {
     "id": "Copyright",
-    "translation": "© Vive el Sueño {{ dateFormat \"2006\" now }}, a 501(c)(3) organisation"
+    "translation": "© Vive el Sueño {{ .Date.Format \"2006\" }}, a 501(c)(3) organisation"
   },
   {
     "id": "One time donation",
