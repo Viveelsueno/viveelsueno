@@ -8,11 +8,16 @@ const cache = async () => {
 
   await page.goto('https://www.instagram.com/viveelsueno/');
   const sources = await page.evaluate(() => {
+    if (!Element.prototype.matches) {
+      Element.prototype.matches = Element.prototype.msMatchesSelector ||
+                                  Element.prototype.webkitMatchesSelector;
+    }
+
     const images = document.querySelectorAll('article img');
     const data = [];
 
     for (let i = 0; i < images.length; i++) {
-      data.push(images[i].currentSrc);
+      data.push({link: images[i].closest('a').href, src: images[i].currentSrc});
     }
 
     return data;

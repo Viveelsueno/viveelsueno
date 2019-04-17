@@ -1,3 +1,8 @@
+const fetch = window.fetch || (() => ({
+  then: () => ({
+    then: () => {}
+  })
+}));
 import $ from 'jquery';
 
 $(document).ready(() => {
@@ -77,6 +82,22 @@ $(document).ready(() => {
     }
   });
 
+  const buildInstagramFeed = () => {
+    fetch('/instagram.json')
+    .then((r) => r.json())
+    .then((j) => j.sources.slice(0, 6).forEach((image) => {
+      $('.socials__instagram-feed').append(
+        $('<a/>', {
+          class: 'socials__instagram-photo',
+          href: image.link,
+          target: '_blank'
+        }).css({
+          backgroundImage: 'url(' + image.src + ')'
+        }));
+    }));
+  };
+  buildInstagramFeed();
+
   const smoothScrollingTo = (target) => {
     $root.animate({scrollTop:$(target).offset().top}, 500, 'swing', () => {
       location.hash = target;
@@ -116,7 +137,7 @@ $(document).ready(() => {
       }, 300);
     }
   });
-  
+
   $('.nav__flyout-link').click(() => {
     $flyout
     .removeClass('nav__flyout--active')

@@ -8,6 +8,7 @@
     "hugo": "gulp hugo",
     "build": "gulp build",
     "build-preview": "gulp build-preview",
+    "fetch-instagram": "node instagram",
     "start": "gulp server",
     "lint": "eslint src"
   },
