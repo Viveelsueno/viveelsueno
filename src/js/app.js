@@ -19,6 +19,8 @@ $(document).ready(() => {
     }
   });
 
+  //
+
   let donateFormSubmissionTracked = false;
   $('#form-donate').submit(function(e) {
     if (donateFormSubmissionTracked === false) {
