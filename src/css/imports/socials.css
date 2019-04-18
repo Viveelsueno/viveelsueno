@@ -40,20 +40,6 @@
   }
 }
 
-.socials__instagram-photo {
-  display: inline-block;
-  background-size: cover;
-  background-position: center;
-  width: 128px;
-  height: 128px;
-  margin: .25rem;
-  border-radius: 3px;
-
-  &:hover {
-    filter: brightness(.6);
-  }
-}
-
 .socials__buttons {
   margin: 1.25rem 0 2.5rem;
 }
@@ -167,8 +153,11 @@
   height: 128px;
   margin: .25rem;
   border-radius: 3px;
+  transition: transform .2s ease;
+  z-index: -1;
 
   &:hover {
-    filter: brightness(.6);
+    z-index: 1;
+    transform: scale(1.1);
   }
 }
