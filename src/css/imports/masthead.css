@@ -10,6 +10,15 @@
   }
 }
 
+.section-team .masthead,
+.section-participant .masthead {
+  padding-bottom: 100%;
+
+  @media (min-width: 560px) {
+    padding-bottom: 30%;
+  }
+}
+
 .masthead__content {
   z-index: 2;
   position: absolute;

@@ -176,7 +176,7 @@ $(document).ready(() => {
         $('#form-newsletter-subscribe').replaceWith(responseText);
       } else {
         $('#form-newsletter-subscribe .socials__email-input').css({
-          border: '2px solid #b54545'
+          outline: '2px solid #b54545'
         });
       }
     }, 'json');
