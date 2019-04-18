@@ -25,7 +25,10 @@
  .socials__right {	
   flex: 1 1 100%;	
   text-align: center;	
-  margin: 1rem 2rem 1rem;	
+  margin: 1rem 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
    @media (min-width: 380px) {	
     text-align: left;	
@@ -52,7 +55,7 @@
 }
 
 .socials__buttons {
-  margin: 1.25rem 0;
+  margin: 1.25rem 0 2.5rem;
 }
 
 .socials__button {
@@ -121,6 +124,7 @@
   background-color: #569524;
   text-decoration: none;
   text-transform: lowercase;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 700;
   font-size: 1rem;
   border-radius: 3px;

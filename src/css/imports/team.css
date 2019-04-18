@@ -5,6 +5,11 @@
 
 h2.team__title {
   margin: 0 auto;
+
+  @media (max-width: 560px) {
+    position: absolute;
+    visibility: hidden;
+  }
 }
 
 .team__teaser {

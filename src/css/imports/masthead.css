@@ -82,6 +82,7 @@
   }
 
   @media (min-width: 480px) {
-    font-size: 1rem;
+    font-size: 1.25rem;
+    padding: .75rem;
   }
 }

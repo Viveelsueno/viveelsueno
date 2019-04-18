@@ -99,9 +99,13 @@ $(document).ready(() => {
   buildInstagramFeed();
 
   const smoothScrollingTo = (target) => {
-    $root.animate({scrollTop:$(target).offset().top}, 500, 'swing', () => {
-      location.hash = target;
-    });
+    const $target = $(target);
+
+    if ($target.length) {
+      $root.animate({scrollTop:$(target).offset().top}, 500, 'swing', () => {
+        location.hash = target;
+      });
+    }
   };
 
   if (location.hash)
