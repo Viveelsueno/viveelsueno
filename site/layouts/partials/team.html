@@ -1,6 +1,6 @@
 <div class="team">
-  <h2 style="margin-top: 0; padding-top: 30px; visibility: hidden; position: absolute;" id='{{ i18n "Our Team" | urlize }}' class="team__title">{{ i18n "Our Team" }}</h2>
-  <div class="team__list">
+  <h2 style="visibility: hidden; position: absolute;" class="team__title">{{ i18n "Our Team" }}</h2>
+  <div style="margin-top: 0; padding-top: 30px;" id='{{ i18n "Our Team" | urlize }}' class="team__list">
     {{ range where .Site.Pages.ByPublishDate.Reverse "Section" "team" }}
       {{ if eq .Kind "page" }}
         {{ .Render "teaser" }}
