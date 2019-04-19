@@ -41,6 +41,7 @@
     text-decoration: none;
     color: #f7fff7;
     margin: 0 .5rem;
+    text-transform: lowercase;
     
     @media (min-width: 360px) {
       margin: 0 1rem;

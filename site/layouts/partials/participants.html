@@ -1,5 +1,7 @@
 <div class="participants">
-  <h2 class="participants__title">{{ i18n "Our Participants" }}</h2>
+  <h2 style="margin-top: 0; padding-top: 30px;" id='{{ i18n "Our Participants" | urlize }}' class="participants__title">
+    {{ i18n "Our Participants" }}
+  </h2>
   <div class="participants__list">
     {{ range first 8 (sort (where .Site.Pages "Section" "participant") "Params.graduation_year" "desc") }}
       {{ .Render "teaser" }}

@@ -1,5 +1,9 @@
 <div class="program">
-  <h2 class="program__header"><a class="program__header-link" href='{{ "/about#our-program" | relLangURL }}'>{{ i18n "Our Program" }}</a></h2>
+  <h2 style="margin-top: 0; padding-top: 30px;" id='{{ i18n "Our Program" | urlize }}' class="program__header">
+    <a class="program__header-link" href='{{ "/about" | relLangURL }}#{{ if eq .Lang "en" }}our-program{{ else }}nuestro-program{{ end }}'>
+      {{ i18n "Our Program" }}
+    </a>
+  </h2>
   <div class="program__section">
     <div class="program__section-side">
       <h3 class="program__title">
