@@ -240,6 +240,7 @@ p.donate__blurb {
   font-size: 1.1rem;
   font-weight: 400;
   max-width: 500px;
+  text-align: center;
 
   @media (min-width: 840px) {
     max-width: none;
