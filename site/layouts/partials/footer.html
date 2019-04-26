@@ -3,11 +3,14 @@
     {{ range (index .Site.Data.menus.Main .Lang) }}
       <a href="{{ .link }}" class="footer__link">{{ .label }}</a>
     {{ end }}
+    <a class="footer__social-link" href="mailto:{{ .Site.Data.social.Email.address }}">
+      <img class="lazy footer__social" data-src="/img/Email.png" alt="email">
+    </a>
     <a class="footer__social-link" href="{{ .Site.Data.social.Facebook.url }}" target="blank">
       <img class="lazy footer__social" data-src="/img/Facebook.png" alt="facebook">
     </a>
-    <a class="footer__social-link" href="mailto:{{ .Site.Data.social.Email.address }}">
-      <img class="lazy footer__social" data-src="/img/Email.png" alt="email">
+    <a class="footer__social-link" href="{{ .Site.Data.social.Instagram.url }}">
+      <img class="lazy footer__social" src="/img/Instagram.svg" alt="instagram">
     </a>
     <span class="footer__copyright">
       {{ i18n "Copyright" }}
