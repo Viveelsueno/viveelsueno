@@ -1,5 +1,5 @@
 +++
-date = "2019-04-25T09:27:59Z"
+date = "2019-04-26T09:27:59Z"
 masthead_image = "/uploads/2019/04/23/ines-lopez.jpg"
 teaser_image = "/uploads/2019/04/23/ines-lopez-teaser.jpg"
 title = "Inés Rosales López"
