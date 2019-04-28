@@ -3,6 +3,14 @@ const fetch = window.fetch || (() => ({
     then: () => {}
   })
 }));
+const isExternalLink = ($this) => {
+  const url = $this.attr('href');
+  const host = window.location.hostname.toLowerCase();
+  const regex = new RegExp('^(?:(?:f|ht)tp(?:s)?\:)?//(?:[^\@]+\@)?([^:/]+)', 'im');
+  const match = url.match(regex);
+  const domain = ((match ? match[1].toString() : ((url.indexOf(':') < 0) ? host : ''))).toLowerCase();
+  return domain !== host;
+};
 import $ from 'jquery';
 
 $(document).ready(() => {
@@ -12,15 +20,26 @@ $(document).ready(() => {
 
   $('a').each(function() {
     const $this = $(this);
-    const url = $this.attr('href');
-    const host = window.location.hostname.toLowerCase();
-    const regex = new RegExp('^(?:(?:f|ht)tp(?:s)?\:)?//(?:[^\@]+\@)?([^:/]+)', 'im');
-    const match = url.match(regex);
-    const domain = ((match ? match[1].toString() : ((url.indexOf(':') < 0) ? host : ''))).toLowerCase();
-
-    if (domain !== host) {
+    if (isExternalLink($this)) {
       $this.addClass('js-outbound-link');
       $this.attr('target', '_blank');
+    }
+  });
+
+  $(document).on('click', 'a', function(event) {
+    if (isExternalLink($(event.target))) {
+      event.preventDefault();
+      function clickLink() {
+        window.open($(event.target).attr('href'), '_blank');
+      }
+      setTimeout(clickLink, 1000);
+
+      window.gtag = window.gtag || function() {};
+      window.gtag('event', 'Outbound Link Click', {
+        'event_callback': function() { clickLink(); },
+        'event_category': 'Link',
+        'event_label': `Click ${$(event.target).attr('href')}`
+      });
     }
   });
 
@@ -30,13 +49,13 @@ $(document).ready(() => {
       e.preventDefault();
       const $this = $(this);
 
-      setTimeout(submitForm, 1000);
       function submitForm() {
         if (!donateFormSubmissionTracked) {
           donateFormSubmissionTracked = true;
           $this.submit();
         }
       }
+      setTimeout(submitForm, 1000);
 
       // Track conversion
       const $radio = $('input[name="amount"]:checked', $this);
