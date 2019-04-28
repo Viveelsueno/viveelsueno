@@ -22,3 +22,5 @@ fields:
   config:
     required: true
   label: Location
+pages:
+- site/content/english-meet-and-greet.md
