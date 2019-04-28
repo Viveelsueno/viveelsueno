@@ -12,11 +12,14 @@ url = "/es/about"
 [call_to_action_button]
 label = "Haz una donación"
 link = "#donate"
+[program.button]
+text = ""
+url = ""
 [program.item_1]
 blurb = "A los participantes se les ofrece una capacitación intensiva de negocios de 40 horas / 2 semanas por parte del grupo docente Yo Emprendedor en la Biblioteca David Kitson."
 title = "Capacitación del trabajo"
 [program.item_2]
-blurb = "A los participantes se les ofrecen 10 meses de clases de inglés de 2 horas dos veces por semana, adaptadas a los negocios individuales de nuestros participantes y dictadas por un instructor certificado por TEFL en el Instituto Español de Nosara."
+blurb = "A los participantes se les ofrecen 10 meses de clases de inglés de 2 horas dos veces por semana, adaptadas a los negocios individuales de nuestros participantes y dictadas por un instructor certificado por TEFL en las aulas de La Asociación Edunámica."
 title = "Lecciones de inglés"
 [program.item_3]
 blurb = "A los participantes se les ofrece una sesión individual con nuestro artista de diseño gráfico, Zacc Pollit, para crear un logo personalizado y profesional y una sesión de fotos profesional con la fotógrafa Veronica Monge para ayudarlos con su mercadotecnia y publicidad."

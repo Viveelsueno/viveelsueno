@@ -1,0 +1,24 @@
+---
+label: event
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: event_date
+  type: datetime
+  description: ''
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: false
+  label: Event Date
+  default: now
+- name: location
+  type: text
+  config:
+    required: true
+  label: Location
