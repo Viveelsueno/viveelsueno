@@ -22,3 +22,10 @@ fields:
   config:
     required: true
   label: Location
+- name: sitemap_exclude
+  type: boolean
+  hidden: true
+  label: Sitemap Exclude
+  default: true
+pages:
+- site/content/english-meet-and-greet.md
