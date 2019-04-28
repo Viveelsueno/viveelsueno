@@ -27,5 +27,3 @@ fields:
   hidden: true
   label: Sitemap Exclude
   default: true
-pages:
-- site/content/english-meet-and-greet.md
