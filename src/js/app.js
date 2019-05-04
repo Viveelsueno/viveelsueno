@@ -17,6 +17,23 @@ $(document).ready(() => {
   const $root = $('html, body');
   const $flyout = $('.nav__flyout');
   const $navMain = $('.nav__main');
+  const now = new Date();
+  let nVisibleEvents = 0;
+
+  $('.event__teaser').each(function() {
+    const $this = $(this);
+    const dateString = $this.data('date');
+    const date = new Date(Date.parse(dateString));
+
+    if (date > now) {
+      nVisibleEvents++;
+      $this.show();
+    }
+  });
+
+  if (nVisibleEvents === 0) {
+    $('.events').hide();
+  }
 
   $('a').each(function() {
     const $this = $(this);

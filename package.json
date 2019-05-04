@@ -8,6 +8,7 @@
     "hugo": "gulp hugo",
     "build": "gulp build",
     "build-preview": "gulp build-preview",
+    "test": "jest",
     "fetch-instagram": "node instagram",
     "start": "gulp server",
     "lint": "eslint src"
@@ -41,9 +42,16 @@
     "jquery": "^3.3.1",
     "postcss-cssnext": "^2.7.0",
     "postcss-import": "^10.0.0",
-    "puppeteer": "^1.14.0",
     "url-loader": "^0.5.7",
     "webpack": "3.6.0",
     "whatwg-fetch": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@percy/puppeteer": "^1.0.7",
+    "babel-jest": "^24.7.1",
+    "jest": "^24.7.1",
+    "puppeteer": "^1.15.0"
   }
 }

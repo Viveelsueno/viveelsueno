@@ -1,0 +1,10 @@
+{{ if gt (len (where .Site.Pages "Section" "event")) 0 }}
+<div class="events">
+  <h2 class="events__title">{{ i18n "Upcoming events" }}</h2>
+  <div class="events__list">
+    {{ range first 5 (sort (where (where .Site.Pages "Section" "event") "Kind" "page") "Params.event_date" "asc") }}
+      {{ .Render "teaser" }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}

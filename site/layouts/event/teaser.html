@@ -1,0 +1,15 @@
+<div style="display: none;" data-date="{{ .Params.event_date }}" class="event__teaser">
+  <div class="event__teaser-date">
+    {{ $eventDate := (.Params.event_date | time) }}
+    {{ if eq .Lang "en" }}
+      {{ $eventDate.Hour }}:{{ $eventDate.Minute }} {{ $eventDate.Day }} {{ index $.Site.Data.months (printf "%d" $eventDate.Month) }} {{ $eventDate.Year }}
+    {{ else }}
+      {{ $eventDate.Hour }}:{{ $eventDate.Minute }} {{ $eventDate.Day }} {{ index $.Site.Data.mes (printf "%d" $eventDate.Month) }} {{ $eventDate.Year }}
+    {{ end }}
+  </div>
+  <div class="event__teaser-title">{{ .Title }}</div>
+  <div class="event__teaser-location">
+    <span class="event__teaser-location-icon"></span>
+    {{ .Params.location }}
+  </div>
+</div>
