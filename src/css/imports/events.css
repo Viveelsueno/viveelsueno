@@ -1,3 +1,7 @@
+.events {
+  margin: 8rem auto;
+}
+
 .events__list {
   display: inline-block;
   padding-left: 1.5rem;
