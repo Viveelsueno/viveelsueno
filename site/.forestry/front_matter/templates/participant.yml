@@ -86,6 +86,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/anadilsa-rosales-diaz.es.md
 - site/content/participant/anadilsa-rosales-diaz.md
 - site/content/participant/alicia-artavia.es.md
 - site/content/participant/alicia-artavia.md
