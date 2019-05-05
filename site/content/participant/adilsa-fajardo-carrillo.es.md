@@ -1,5 +1,6 @@
 +++
 brand_name = "Dianthus Cevichera"
+business_location_name = "San Pedro, Nosara"
 business_sector = "Restaurants and Catering"
 date = "2018-04-06T12:00:24Z"
 external_url = "https://www.facebook.com/Dianthus-1661561170814567/"

@@ -55,6 +55,11 @@ fields:
   label: Brand Name
   config:
     required: true
+- name: business_location_name
+  type: text
+  config:
+    required: true
+  label: Business Location Name
 - type: text
   name: phone_number
   label: Phone number
@@ -86,6 +91,15 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/dayana-reyes-garcia.es.md
+- site/content/participant/dayana-reyes-garcia.md
+- site/content/participant/cinthya-rosales.md
+- site/content/participant/arianna-rivera-aviles.es.md
+- site/content/participant/arianna-rivera-aviles.md
+- site/content/participant/anadilsa-rosales-diaz.es.md
+- site/content/participant/anadilsa-rosales-diaz.md
+- site/content/participant/alicia-artavia.es.md
+- site/content/participant/alicia-artavia.md
 - site/content/participant/alexandra-perez-avila.md
 - site/content/participant/alexandra-perez-avila.es.md
 - site/content/participant/adilsa-fajardo-carrillo.md
@@ -97,7 +111,6 @@ pages:
 - site/content/participant/ricardo-moraga.md
 - site/content/participant/juan-carlos.es.md
 - site/content/participant/carmen-rosales-dinarte.es.md
-- site/content/participant/cinthya-rosales.md
 - site/content/participant/juan-carlos.md
 - site/content/participant/ana-rosales.es.md
 - site/content/participant/edith-quiros-avila.es.md
