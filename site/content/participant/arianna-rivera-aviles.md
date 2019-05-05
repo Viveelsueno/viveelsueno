@@ -1,6 +1,6 @@
 +++
 brand_name = "Ari's Boutique"
-business_sector = "Beauty and Salon Services"
+business_sector = "Seamstresses"
 date = "2018-05-01T05:05:09Z"
 external_url = ""
 graduation_year = 2018
