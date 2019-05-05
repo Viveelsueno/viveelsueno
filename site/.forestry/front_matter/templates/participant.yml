@@ -85,6 +85,11 @@ fields:
 - type: file
   name: teaser_logo
   label: Teaser Logo
+- name: business_location_name
+  type: text
+  config:
+    required: true
+  label: Business Location Name
 pages:
 - site/content/participant/dayana-reyes-garcia.es.md
 - site/content/participant/dayana-reyes-garcia.md
