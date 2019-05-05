@@ -7,6 +7,49 @@ fields:
   label: Name
   config:
     required: true
+- name: business_sector
+  type: select
+  default: ''
+  config:
+    required: true
+    options:
+    - Accomodations
+    - Artisans
+    - Agricultural Foods
+    - Baked Goods
+    - Beauty and Salon Services
+    - Cell Phone Services
+    - Convenience Stores
+    - Cleaning Services
+    - Clothing Stores
+    - Construction and Renovations
+    - Childcare Services
+    - English Classes
+    - Electricians
+    - General Maintenance and Gardening
+    - Event Planning
+    - Farms and Farm Products
+    - Health Products
+    - Florists
+    - Massage and Bodywork
+    - Mechanics
+    - Pool Services
+    - Office Supplies
+    - Property Management
+    - Paint Services
+    - ATV & Quad Tours & Rentals
+    - Restaurants and Catering
+    - Real Estate
+    - Seamstresses
+    - Surf Schools
+    - Tours
+    - Transporation
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Business Sector
 - type: text
   name: brand_name
   label: Brand Name
@@ -24,10 +67,15 @@ fields:
   name: graduation_year
   config:
     source:
-      type: datafiles
+      type: simple
       file: site-yml
       path: Years
     required: false
+    options:
+    - '2017'
+    - '2018'
+    - '2019'
+    - '2016'
   label: Graduation Year
 - type: file
   name: teaser_image
@@ -37,12 +85,11 @@ fields:
 - type: file
   name: teaser_logo
   label: Teaser Logo
-- type: file
-  name: masthead_image
-  label: Masthead Image
-  config:
-    maxSize: '2'
 pages:
+- site/content/participant/alexandra-perez-avila.md
+- site/content/participant/alexandra-perez-avila.es.md
+- site/content/participant/adilsa-fajardo-carrillo.md
+- site/content/participant/adilsa-fajardo-carrillo.es.md
 - site/content/participant/yisenia-rojas-bolanos.es.md
 - site/content/participant/yisenia-rojas-bolanos.md
 - site/content/participant/warner-gerardo.es.md

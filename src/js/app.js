@@ -227,7 +227,11 @@ $(document).ready(() => {
   const applySearchResults = ($results, results) => {
     $results.html(
       results.map((result) => (
-        `<div>${result.business_name}</div>`
+        `<div class="businesses__business-teaser">
+          <div class="businesses__business-sector">${result.business_sector}</div>
+          <div class="businesses__business-name">${result.business_name}</div>
+          <div class="businesses__business-location">${result.location}</div>
+        </div>`
       ))
     );
   };

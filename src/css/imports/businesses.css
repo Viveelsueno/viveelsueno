@@ -66,9 +66,41 @@ h2.businesses__title {
 }
 
 .businesses__search-results {
+  display: inline-block;
   margin-top: 1rem;
+  padding-left: 1.5rem;
+  border-left: 4px solid #569524;
 
   & > * {
-    margin: .5rem;
+    margin: .5rem 0;
   }
+}
+
+.businesses__business-teaser {
+  text-align: left;
+  position: relative;
+  padding: 1rem 0;
+
+  &::before {
+    display: block;
+    position: absolute;
+    left: -1.5rem;
+    top: 1.5rem;
+    transform: translateY(-50%);
+    content: '';
+    width: 10px;
+    height: 4px;
+    background: #569524;
+  }
+}
+
+.businesses__business-sector,
+.businesses__business-location {
+  color: #9F7239;
+}
+
+.businesses__business-name {
+  margin: .5rem 0;
+  font-size: 1.25rem;
+  color: #6A481C;
 }
