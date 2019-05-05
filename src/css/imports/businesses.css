@@ -1,0 +1,45 @@
+.businesses {
+  text-align: left;
+}
+
+.businesses__subtitle {
+  font-size: 1.1rem;
+  letter-spacing: .05rem;
+  text-transform: uppercase;
+  color: #9F7239;
+}
+
+h2.businesses__title {
+  font-size: 2rem;
+  margin: .5rem 0;
+  letter-spacing: .05rem;
+  text-transform: uppercase;
+  color: #6B4A20;
+}
+
+.businesses__search {
+  position: relative;
+
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: 1rem;
+    height: 1rem;
+    background: url('/img/Search.svg');
+    background-size: cover;
+  }
+}
+
+.businesses__search-input {
+  background: #D8D8D8;
+  color: #555151;
+  appearance: none;
+  border: 0;
+  padding: 1rem 1rem 1rem 2.5rem;
+  border-radius: .25rem;
+  width: 100%;
+  box-sizing: border-box;
+}
