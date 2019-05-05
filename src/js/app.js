@@ -11,6 +11,14 @@ const isExternalLink = ($this) => {
   const domain = ((match ? match[1].toString() : ((url.indexOf(':') < 0) ? host : ''))).toLowerCase();
   return domain !== host;
 };
+const BUSINESS_SEARCH_INDEX_LOADED = 'ves.business_search_index_loaded';
+const CURRENT_LANGUAGE = window.location.pathname.indexOf('/es') === 0 ? 'es' : 'en';
+const getLanguagePrefix = (language) => ['/es', ''][['es', 'en'].indexOf(language)];
+const getCurrentLanguagePrefix = () => getLanguagePrefix(CURRENT_LANGUAGE);
+
+import 'regenerator-runtime/runtime';
+import { Search } from 'js-search';
+// import preact from 'preact';
 import $ from 'jquery';
 
 $(document).ready(() => {
@@ -215,4 +223,64 @@ $(document).ready(() => {
       }
     }, 'json');
   });
+
+  $('#business-search-homepage').each(function() {
+    const $this = $(this);
+    document.addEventListener(BUSINESS_SEARCH_INDEX_LOADED, () => {
+      const $input = $this.children('input').first();
+      const $results = $this.children('#business-search-homepage-results').first();
+      const currValue = $input.val();
+
+      // Search the index if the user had typed
+      // something in before the results loaded
+      if (currValue !== '') {
+        console.log(window.BUSINESS_SEARCH_INDEX.search(currValue));
+      }
+
+      // Set the placeholder to real examples
+      const businesses = window.BUSINESS_SEARCH_INDEX._documents;
+      const businessExample = businesses[0].business_name;
+      const sectorExample = businesses[1].business_sector;
+      const locationExample = businesses[2].location;
+      $input.attr('placeholder', `${
+        CURRENT_LANGUAGE === 'es'
+        ? 'p.ej.'
+        : 'eg.'
+      } ${sectorExample}, ${locationExample} ${
+        CURRENT_LANGUAGE === 'es'
+        ? 'o'
+        : 'or'
+      } ${businessExample}`);
+
+      // Search the index after 250ms of no typing
+      let timeout;
+      $input.bind('keyup', () => {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => {
+          const newValue = $input.val();
+          const results = window.BUSINESS_SEARCH_INDEX.search(newValue).slice(0, 3);
+          $results.html(
+            results.map((result) => (
+              `<div>${result.business_name}</div>`
+            ))
+          );
+        }, 250);
+      });
+    });
+  });
+
+  const fetchSearchableBusinesses = async () => {
+    try {
+      const response = await fetch(`${getCurrentLanguagePrefix()}/participant/index.json`);
+      const json = await response.json();
+
+      window.BUSINESS_SEARCH_INDEX = new Search('id');
+      window.BUSINESS_SEARCH_INDEX.addIndex('location');
+      window.BUSINESS_SEARCH_INDEX.addIndex('business_sector');
+      window.BUSINESS_SEARCH_INDEX.addIndex('business_name');
+      window.BUSINESS_SEARCH_INDEX.addDocuments(json.businesses);
+      document.dispatchEvent(new CustomEvent(BUSINESS_SEARCH_INDEX_LOADED));
+    } catch (err) {}
+  };
+  fetchSearchableBusinesses();
 });

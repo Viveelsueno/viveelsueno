@@ -1,9 +1,16 @@
 .events {
   text-align: left;
+  padding: 0 2rem;
+
+  @media (min-width: 960px) {
+    padding: 0;
+  }
 }
 
 h2.events__title {
   margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .events__list {

@@ -1,0 +1,17 @@
+{
+  "businesses": [
+    {{ range $index, $element := where $.Site.Pages "Section" "participant" }}
+      {{ if isset .Params "brand_name" }}
+      {{ if ne $index 0 }},{{ end }}
+      {
+        "id": "{{ md5 .Params.brand_name }}",
+        {{ if ne .Params.phone_number "Unavailable" }}"phone_number": "{{ .Params.phone_number }}",{{ end }}
+        "graduate_name": "{{ .Title }}",
+        "business_name": "{{ .Params.brand_name }}",
+        "business_sector": "accomodation",
+        "location": "Nosara Centro"
+      }
+      {{ end }}
+    {{ end }}
+  ]
+}

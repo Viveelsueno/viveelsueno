@@ -1,3 +1,4 @@
+require('regenerator-runtime/runtime');
 const puppeteer = require('puppeteer');
 const {percySnapshot} = require('@percy/puppeteer');
 

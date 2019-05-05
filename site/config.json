@@ -1,6 +1,9 @@
 {
   "baseURL": "/",
   "title": "Vive el Sueño",
+  "outputs": {
+    "section": ["HTML", "JSON"]
+  },
   "disableKinds": [
     "RSS",
     "taxonomy",
@@ -12,6 +15,11 @@
     },
     "es": {
       "weight": 2
+    }
+  },
+  "mediaTypes": {
+    "application/json": {
+      "suffix": "json"
     }
   }
 }

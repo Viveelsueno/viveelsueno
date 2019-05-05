@@ -3,14 +3,22 @@
   max-width: 960px;
   justify-content: space-between;
   margin: 8rem auto;
+  flex-wrap: wrap;
+
+  @media (min-width: 960px) {
+    flex-wrap: nowrap;
+  }
 }
 
 .businesses-and-events__businesses-wrapper {
-  flex: 1 1;
-  max-width: 600px;
+  @media (min-width: 700px) {
+    flex: 1 1;
+    min-width: 660px;
+  }
 }
 
 .businesses-and-events__events-wrapper {
   flex: 1 1;
-  max-width: 300px;
+  width: 300px;
+  min-width: 300px;
 }
