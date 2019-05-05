@@ -1,6 +1,6 @@
 +++
 brand_name = "Repostería Los Reyes"
-business_sector = "Accomodations"
+business_sector = "Baked Goods"
 date = "2018-04-06T12:08:44Z"
 external_url = ""
 graduation_year = 2017
