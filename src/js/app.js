@@ -251,9 +251,14 @@ $(document).ready(() => {
 
       // Set the placeholder to real examples
       const businesses = window.BUSINESS_SEARCH_INDEX._documents;
-      const businessExample = businesses[0].business_name;
-      const sectorExample = businesses[1].business_sector;
-      const locationExample = businesses[2].location;
+      let businessExample;
+      let sectorExample;
+      let locationExample;
+      try {
+        businessExample = businesses[0].business_name;
+        sectorExample = businesses[1].business_sector;
+        locationExample = businesses[2].location;
+      } catch (err) {}
       $input.attr('placeholder', `${
         CURRENT_LANGUAGE === 'es'
         ? 'p.ej.'
