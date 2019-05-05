@@ -224,6 +224,14 @@ $(document).ready(() => {
     }, 'json');
   });
 
+  const applySearchResults = ($results, results) => {
+    $results.html(
+      results.map((result) => (
+        `<div>${result.business_name}</div>`
+      ))
+    );
+  };
+
   $('#business-search-homepage').each(function() {
     const $this = $(this);
     document.addEventListener(BUSINESS_SEARCH_INDEX_LOADED, () => {
@@ -234,7 +242,7 @@ $(document).ready(() => {
       // Search the index if the user had typed
       // something in before the results loaded
       if (currValue !== '') {
-        console.log(window.BUSINESS_SEARCH_INDEX.search(currValue));
+        applySearchResults($results, window.BUSINESS_SEARCH_INDEX.search(currValue));
       }
 
       // Set the placeholder to real examples
@@ -259,11 +267,7 @@ $(document).ready(() => {
         timeout = setTimeout(() => {
           const newValue = $input.val();
           const results = window.BUSINESS_SEARCH_INDEX.search(newValue).slice(0, 3);
-          $results.html(
-            results.map((result) => (
-              `<div>${result.business_name}</div>`
-            ))
-          );
+          applySearchResults($results, results);
         }, 250);
       });
     });
