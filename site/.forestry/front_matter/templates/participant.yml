@@ -24,10 +24,15 @@ fields:
   name: graduation_year
   config:
     source:
-      type: datafiles
+      type: simple
       file: site-yml
       path: Years
     required: false
+    options:
+    - '2017'
+    - '2018'
+    - '2019'
+    - '2016'
   label: Graduation Year
 - type: file
   name: teaser_image
