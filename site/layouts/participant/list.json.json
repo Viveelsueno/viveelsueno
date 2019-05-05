@@ -6,7 +6,7 @@
       {{ if ne ($.Scratch.Get "c1") 0 }},{{ end }}
       {{ $.Scratch.Add "c1" 1 }}
       {
-        "id": "{{ md5 .Params.brand_name }}",
+        "id": "{{ md5 (print .Params.brand_name .Title) }}",
         {{ if ne .Params.phone_number "Unavailable" }}"phone_number": "{{ .Params.phone_number }}",{{ end }}
         "graduate_name": "{{ .Title }}",
         "business_name": "{{ .Params.brand_name }}",
