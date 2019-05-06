@@ -2,9 +2,9 @@
   <div class="event__teaser-date">
     {{ $eventDate := (.Params.event_date | time) }}
     {{ if eq .Lang "en" }}
-      {{ $eventDate.Hour }}:{{ $eventDate.Minute }} {{ $eventDate.Day }} {{ index $.Site.Data.months (printf "%d" $eventDate.Month) }} {{ $eventDate.Year }}
+      {{ $eventDate.Day }} {{ index $.Site.Data.months (printf "%d" $eventDate.Month) }} {{ $eventDate.Year }} {{ $eventDate.Hour }}:{{ $eventDate.Minute }} 
     {{ else }}
-      {{ $eventDate.Hour }}:{{ $eventDate.Minute }} {{ $eventDate.Day }} {{ index $.Site.Data.mes (printf "%d" $eventDate.Month) }} {{ $eventDate.Year }}
+      {{ $eventDate.Day }} {{ index $.Site.Data.mes (printf "%d" $eventDate.Month) }} {{ $eventDate.Year }} {{ $eventDate.Hour }}:{{ $eventDate.Minute }}
     {{ end }}
   </div>
   <div class="event__teaser-title">{{ .Title }}</div>
