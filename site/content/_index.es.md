@@ -7,7 +7,7 @@ type = "homepage"
 [blurb]
 text = "Vive El Sueño, con sede en Nosara, Costa Rica, es un programa de empoderamiento educativo y financiero que tiene como objetivo brindar a los ciudadanos costarricenses (Ticos) las habilidades, tutoría y herramientas para abrir y mantener sus propias pequeñas empresas como un camino hacia estándares mejorados de independencia viviente y financiera."
 [blurb.button]
-text = "aprender mas"
+text = "aprender mas sobre nosotros"
 url = "/es/about"
 [call_to_action_button]
 label = "Haz una donación"

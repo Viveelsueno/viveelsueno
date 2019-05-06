@@ -4,10 +4,12 @@
 @import "imports/masthead.css";
 @import "imports/page.css";
 @import "imports/content.css";
+@import "imports/menu.css";
 @import "imports/blurb.css";
 @import "imports/button.css";
 @import "imports/success-stories.css";
 @import "imports/socials.css";
+@import "imports/events.css";
 @import "imports/program.css";
 @import "imports/participants.css";
 @import "imports/sponsor.css";

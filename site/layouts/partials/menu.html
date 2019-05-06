@@ -1,0 +1,32 @@
+<div class="menu">
+  <div class="menu__inner">
+    <a href='#{{ i18n "Our Program" | urlize }}'>
+      {{ if eq .Lang "en" }}
+        Program
+      {{ else }}
+        Programa
+      {{ end }}
+    </a>
+    <a href='#{{ i18n "Our Participants" | urlize }}'>
+      {{ if eq .Lang "en" }}
+        Participants
+      {{ else }}
+        Participantes
+      {{ end }}
+    </a>
+    <a href='#{{ i18n "Stories" | urlize }}'>
+        {{ if eq .Lang "en" }}
+          Stories
+        {{ else }}
+          Historias
+        {{ end }}
+      </a>
+    <a href='#{{ i18n "Our Team" | urlize }}'>
+      {{ if eq .Lang "en" }}
+        Team
+      {{ else }}
+        Equipo
+      {{ end }}
+    </a>
+  </div>
+</div>

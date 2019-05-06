@@ -120,7 +120,15 @@
     "translation": "Founder"
   },
   {
+    "id": "Stories",
+    "translation": "Stories"
+  },
+  {
     "id": "Admin & Operations",
     "translation": "Admin & Operations"
+  },
+  {
+    "id": "Upcoming events",
+    "translation": "Upcoming events"
   }
 ]

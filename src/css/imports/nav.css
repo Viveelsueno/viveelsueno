@@ -24,12 +24,13 @@
 }
 
 .nav__logo {
-  width: 32px;
-  height: 32px;
+  width: 48px;
+  height: 48px;
 }
 
 .nav__links {
   float: right;
+  margin-top: .5rem;
   display: none;
 
   @media (min-width: 720px) {
@@ -41,7 +42,9 @@
   margin-right: 1rem;
   text-decoration: none;
   color: #fff;
-  transform: background .3s ease;
+  border-radius: 3px;
+  transition: background .2s ease;
+  background: transparent;
   padding: .25rem .5rem;
   line-height: 32px;
 
@@ -52,13 +55,13 @@
   &:hover,
   &:focus {
     background: #569524;
-    border-radius: 3px;
   }
 }
 
 .nav__socials {
   float: right;
   margin-left: 2rem;
+  margin-top: .5rem;
   display: none;
 
   @media (min-width: 720px) {
@@ -75,11 +78,13 @@
   padding: 4px;
   width: 24px;
   height: 24px;
+  border-radius: 3px;
+  transition: background .2s ease;
+  background: transparent;
 
   &:hover,
   &:focus {
     background: #569524;
-    border-radius: 3px;
   }
 }
 
@@ -101,6 +106,7 @@
   background-position: center;
   background-size: cover;
   border: none;
+  margin-top: .5rem;
 
   @media (min-width: 720px) {
     display: none;
@@ -118,6 +124,7 @@
   background-position: center;
   background-size: cover;
   border: none;
+  margin-top: .5rem;
 }
 
 .nav__flyout-links {

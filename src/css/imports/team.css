@@ -1,10 +1,15 @@
 .team {
   max-width: 960px;
-  margin: 4rem auto;
+  margin: 8rem auto;
 }
 
 h2.team__title {
   margin: 0 auto;
+
+  @media (max-width: 560px) {
+    position: absolute;
+    visibility: hidden;
+  }
 }
 
 .team__teaser {

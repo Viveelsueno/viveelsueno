@@ -8,6 +8,8 @@
     "hugo": "gulp hugo",
     "build": "gulp build",
     "build-preview": "gulp build-preview",
+    "test": "jest",
+    "fetch-instagram": "node instagram",
     "start": "gulp server",
     "lint": "eslint src"
   },
@@ -43,5 +45,13 @@
     "url-loader": "^0.5.7",
     "webpack": "3.6.0",
     "whatwg-fetch": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@percy/puppeteer": "^1.0.7",
+    "babel-jest": "^24.7.1",
+    "jest": "^24.7.1",
+    "puppeteer": "^1.15.0"
   }
 }
