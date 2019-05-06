@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/cinthya-rosales.es.md
 - site/content/participant/carmen-rosales-dinarte.md
 - site/content/participant/carmen-rosales-dinarte.es.md
 - site/content/participant/dayana-reyes-garcia.es.md
@@ -115,7 +116,6 @@ pages:
 - site/content/participant/juan-carlos.md
 - site/content/participant/ana-rosales.es.md
 - site/content/participant/edith-quiros-avila.es.md
-- site/content/participant/cinthya-rosales.es.md
 - site/content/participant/edith-quiros-avila.md
 - site/content/participant/isa-obando.es.md
 - site/content/participant/ileana-aviles.es.md
