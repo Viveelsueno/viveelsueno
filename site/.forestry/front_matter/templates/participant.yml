@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/erika-rojas-cambronero.md
 - site/content/participant/erika-rojas-cambronero.es.md
 - site/content/participant/eraida-diaz.md
 - site/content/participant/eraida-diaz.es.md
