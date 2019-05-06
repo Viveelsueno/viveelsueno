@@ -3,7 +3,6 @@ brand_name = "TUK TUK"
 business_location_name = "Nosara"
 business_sector = "Transporation"
 date = "2018-05-11T20:14:47Z"
-draft = true
 external_url = ""
 graduation_year = 2018
 masthead_image = ""
