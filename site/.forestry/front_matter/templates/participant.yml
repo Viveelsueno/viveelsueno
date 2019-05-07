@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/jeannette-vargas-ramirez.md
 - site/content/participant/jeannette-vargas-ramirez.es.md
 - site/content/participant/ivan-varela-chavarria.es.md
 - site/content/participant/ivan-varela-chavarria.md
