@@ -1,6 +1,7 @@
 +++
-brand_name = "Nosara Centro"
-business_sector = "Accomodations"
+brand_name = "Nosara Nannies"
+business_location_name = "Nosara"
+business_sector = "Childcare Services"
 date = "2018-05-15T15:55:06Z"
 external_url = ""
 graduation_year = 2016

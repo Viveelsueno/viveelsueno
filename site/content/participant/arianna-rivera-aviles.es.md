@@ -1,5 +1,6 @@
 +++
 brand_name = "Ari's Boutique"
+business_location_name = "Nosara Centro"
 business_sector = "Seamstresses"
 date = "2018-05-01T05:05:52Z"
 external_url = ""

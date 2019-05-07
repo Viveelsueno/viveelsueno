@@ -1,6 +1,7 @@
 +++
 brand_name = "Creaciones Sheri"
-business_sector = "Accomodations"
+business_location_name = "Nosara"
+business_sector = "Seamstresses"
 date = "2018-05-15T15:57:11Z"
 external_url = ""
 graduation_year = 2016
