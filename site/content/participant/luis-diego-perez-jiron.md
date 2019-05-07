@@ -1,7 +1,7 @@
 +++
 brand_name = "Green Spirit"
 business_location_name = "Nosara"
-business_sector = "Accomodations"
+business_sector = "Pool Services"
 date = "2018-05-01T05:11:42Z"
 external_url = "https://www.facebook.com/luisdiego1025/"
 graduation_year = 2018
