@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/luis-diego-perez-jiron.md
 - site/content/participant/luis-diego-perez-jiron.es.md
 - site/content/participant/leda-patricia-matarrita-arroya.es.md
 - site/content/participant/leda-patricia-matarrita-arroya.md
