@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/heidi-cordero-castillo.es.md
 - site/content/participant/graciela-lopez-alfaro.md
 - site/content/participant/graciela-lopez-alfaro.es.md
 - site/content/participant/giovanni-acedo.md
