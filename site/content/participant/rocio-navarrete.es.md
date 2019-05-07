@@ -1,5 +1,7 @@
 +++
-brand_name = "Rossi's Dream"
+brand_name = "Nosara Event Productions"
+business_location_name = "Nosara"
+business_sector = "Event Planning"
 date = "2018-05-11T20:13:59Z"
 draft = true
 external_url = ""
