@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/isa-obando.md
 - site/content/participant/iris-jiron-castillo.md
 - site/content/participant/iris-jiron-castillo.es.md
 - site/content/participant/ines-guadalupe-rosales-lopez.es.md
@@ -141,7 +142,6 @@ pages:
 - site/content/participant/ileana-aviles.es.md
 - site/content/participant/ileana-aviles.md
 - site/content/participant/ana-rosales.md
-- site/content/participant/isa-obando.md
 - site/content/participant/warner-gerardo.md
 - site/content/participant/maritza-sanchez.es.md
 - site/content/participant/maritza-sanchez.md
