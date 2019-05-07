@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/leda-patricia-matarrita-arroya.es.md
 - site/content/participant/karen-vindas.md
 - site/content/participant/karen-vindas.es.md
 - site/content/participant/juan-ocontrillo.es.md
