@@ -1,7 +1,7 @@
 +++
 brand_name = "Color Violeta"
 business_location_name = "Esperanza"
-business_sector = "Accomodations"
+business_sector = "Artisans"
 date = "2018-04-06T11:30:59Z"
 external_url = "https://www.facebook.com/Color-Violeta-315712235497441"
 graduation_year = 2017
