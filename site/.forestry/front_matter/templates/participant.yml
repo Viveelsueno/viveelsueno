@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/ivan-varela-chavarria.md
 - site/content/participant/isidora-rojas-cambronero.md
 - site/content/participant/isidora-rojas-cambronero.es.md
 - site/content/participant/isa-obando.md
