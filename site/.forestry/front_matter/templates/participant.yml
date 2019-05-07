@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/warren-arrieta-juarez.md
 - site/content/participant/warren-arrieta-juarez.es.md
 - site/content/participant/virginia-alfaro-cordero.md
 - site/content/participant/virginia-alfaro-cordero.es.md
