@@ -1,7 +1,7 @@
 +++
 brand_name = "Soda Vanessa"
 business_location_name = "Nosara Centro"
-business_sector = "Accomodations"
+business_sector = "Restaurants and Catering"
 date = "2018-04-28T01:36:05Z"
 external_url = ""
 graduation_year = 2018

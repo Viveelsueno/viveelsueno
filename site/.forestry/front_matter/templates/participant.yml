@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/sonia-cordoba-porras.es.md
 - site/content/participant/sonia-cordoba-porras.md
 - site/content/participant/shirley-rojas-lopez.md
 - site/content/participant/shirley-rojas-lopez.es.md
