@@ -6,9 +6,9 @@ external_url = ""
 graduation_year = 2018
 masthead_image = ""
 phone_number = "Unavailable"
+sitemap_exclude = true
 teaser_image = ""
 teaser_logo = "/uploads/2018/05/29/rossi-dreams.jpg"
-title = "Rocio Navarrete"
-sitemap_exclude = true
+title = "Rocio Navarette"
 
 +++
