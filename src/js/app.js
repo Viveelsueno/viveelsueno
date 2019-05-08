@@ -226,7 +226,7 @@ $(document).ready(() => {
 
   const applySearchResults = ($results, results) => {
     $results.html(
-      results.map((result) => (
+      results.slice(0, 3).map((result) => (
         `<div class="businesses__business-teaser">
           <div class="businesses__business-sector">${result.business_sector}</div>
           <div class="businesses__business-name">${result.business_name}</div>
@@ -247,6 +247,8 @@ $(document).ready(() => {
       // something in before the results loaded
       if (currValue !== '') {
         applySearchResults($results, window.BUSINESS_SEARCH_INDEX.search(currValue));
+      } else {
+        applySearchResults($results, window.BUSINESS_SEARCH_INDEX.search('Nosara'));
       }
 
       // Set the placeholder to real examples
@@ -275,7 +277,7 @@ $(document).ready(() => {
         clearTimeout(timeout);
         timeout = setTimeout(() => {
           const newValue = $input.val();
-          const results = window.BUSINESS_SEARCH_INDEX.search(newValue).slice(0, 3);
+          const results = window.BUSINESS_SEARCH_INDEX.search(newValue);
           applySearchResults($results, results);
         }, 250);
       });
