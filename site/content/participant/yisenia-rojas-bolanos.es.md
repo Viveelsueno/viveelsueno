@@ -1,7 +1,7 @@
 +++
 brand_name = "Creaciones Yesi"
 business_location_name = "Arenales, Nosara"
-business_sector = "Artisans"
+business_sector = "Office Supplies"
 date = "2018-05-15T14:57:50Z"
 external_url = ""
 graduation_year = 2016
