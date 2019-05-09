@@ -1,6 +1,7 @@
 +++
 brand_name = "Minisuper Nosara Centro"
 business_sector = "Convenience Stores"
+business_location_name = "Nosara Centro"
 date = "2018-04-06T11:24:25Z"
 external_url = "https://www.facebook.com/Minisuper-Nosara-Centro-1592434994382418/"
 graduation_year = 2017

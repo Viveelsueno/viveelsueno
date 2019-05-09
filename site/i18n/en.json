@@ -138,5 +138,129 @@
   {
     "id": "Find local tico businesses",
     "translation": "Find local tico businesses"
+  },
+  {
+    "id": "Accomodations",
+    "translation": "Accomodations"
+  },
+  {
+    "id": "Artisans",
+    "translation": "Artisans"
+  },
+  {
+    "id": "Agricultural Foods",
+    "translation": "Agricultural Foods"
+  },
+  {
+    "id": "Baked Goods",
+    "translation": "Baked Goods"
+  },
+  {
+    "id": "Beauty and Salon Services",
+    "translation": "Beauty and Salon Services"
+  },
+  {
+    "id": "Cell Phone Services",
+    "translation": "Cell Phone Services"
+  },
+  {
+    "id": "Convenience Stores",
+    "translation": "Convenience Stores"
+  },
+  {
+    "id": "Cleaning Services",
+    "translation": "Cleaning Services"
+  },
+  {
+    "id": "Clothing Stores",
+    "translation": "Clothing Stores"
+  },
+  {
+    "id": "Construction and Renovations",
+    "translation": "Construction and Renovations"
+  },
+  {
+    "id": "Childcare Services",
+    "translation": "Childcare Services"
+  },
+  {
+    "id": "English Classes",
+    "translation": "English Classes"
+  },
+  {
+    "id": "Electricians",
+    "translation": "Electricians"
+  },
+  {
+    "id": "General Maintenance and Gardening",
+    "translation": "General Maintenance and Gardening"
+  },
+  {
+    "id": "Event Planning",
+    "translation": "Event Planning"
+  },
+  {
+    "id": "Farms and Farm Products",
+    "translation": "Farms and Farm Products"
+  },
+  {
+    "id": "Health Products",
+    "translation": "Health Products"
+  },
+  {
+    "id": "Florists",
+    "translation": "Florists"
+  },
+  {
+    "id": "Massage and Bodywork",
+    "translation": "Massage and Bodywork"
+  },
+  {
+    "id": "Mechanics",
+    "translation": "Mechanics"
+  },
+  {
+    "id": "Pool Services",
+    "translation": "Pool Services"
+  },
+  {
+    "id": "Office Supplies",
+    "translation": "Office Supplies"
+  },
+  {
+    "id": "Property Management",
+    "translation": "Property Management"
+  },
+  {
+    "id": "Paint Services",
+    "translation": "Paint Services"
+  },
+  {
+    "id": "ATV & Quad Tours & Rentals",
+    "translation": "ATV & Quad Tours & Rentals"
+  },
+  {
+    "id": "Restaurants and Catering",
+    "translation": "Restaurants and Catering"
+  },
+  {
+    "id": "Real Estate",
+    "translation": "Real Estate"
+  },
+  {
+    "id": "Seamstresses",
+    "translation": "Seamstresses"
+  },
+  {
+    "id": "Surf Schools",
+    "translation": "Surf Schools"
+  },
+  {
+    "id": "Tours",
+    "translation": "Tours"
+  },
+  {
+    "id": "Transporation",
+    "translation": "Transporation"
   }
 ]

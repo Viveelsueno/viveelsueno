@@ -10,7 +10,7 @@
         {{ if ne .Params.phone_number "Unavailable" }}"phone_number": "{{ .Params.phone_number }}",{{ end }}
         "graduate_name": "{{ .Title }}",
         "business_name": "{{ .Params.brand_name }}",
-        "business_sector": "{{ .Params.business_sector }}",
+        "business_sector": "{{ i18n .Params.business_sector }}",
         "location": "{{ .Params.business_location_name }}"
       }
       {{ end }}
