@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/edith-quiros-avila.md
 - site/content/participant/yisenia-rojas-bolanos.md
 - site/content/participant/ileana-aviles-mayorga-1.md
 - site/content/participant/ileana-aviles-mayorga.md
@@ -124,7 +125,6 @@ pages:
 - site/content/participant/iris-jiron-castillo.es.md
 - site/content/participant/carmen-rosales-dinarte.md
 - site/content/participant/ines-guadalupe-rosales-lopez.md
-- site/content/participant/edith-quiros-avila.md
 - site/content/participant/cinthya-rosales.es.md
 - site/content/participant/pilar-montiel-noguera.md
 - site/content/participant/arianna-rivera-aviles.es.md
