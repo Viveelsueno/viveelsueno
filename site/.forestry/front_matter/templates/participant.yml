@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/isa-obando.md
 - site/content/participant/maritza-juarez.es.md
 - site/content/participant/karen-vindas.md
 - site/content/participant/rocio-navarrete.es.md
@@ -105,7 +106,6 @@ pages:
 - site/content/participant/ruth-juarez-cordoba.es.md
 - site/content/participant/luis-diego-perez-jiron.md
 - site/content/participant/virginia-alfaro-cordero.es.md
-- site/content/participant/isa-obando.md
 - site/content/participant/iris-jiron-castillo.md
 - site/content/participant/virginia-alfaro-cordero.md
 - site/content/participant/heidi-cordero-castillo.es.md
