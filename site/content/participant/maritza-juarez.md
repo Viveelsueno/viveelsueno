@@ -9,7 +9,7 @@ masthead_image = ""
 phone_number = "Unavailable"
 sitemap_exclude = true
 teaser_image = ""
-teaser_logo = ""
+teaser_logo = "/uploads/2019/05/09/El-Corral.jpg"
 title = "Maritza Juarez"
 
 +++
