@@ -1,12 +1,12 @@
 +++
 brand_name = "Creaciones Yesi"
 business_location_name = "Arenales, Nosara"
-business_sector = "Artisans"
+business_sector = "Office Supplies"
 date = "2018-05-15T14:57:00Z"
 external_url = ""
 graduation_year = 2016
 masthead_image = ""
-phone_number = "Unavailable"
+phone_number = " 8940-5635 "
 sitemap_exclude = true
 teaser_image = "/uploads/2018/05/15/yisenia.png"
 teaser_logo = "/uploads/2018/05/26/yisenia-logo.png"
