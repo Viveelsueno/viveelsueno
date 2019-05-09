@@ -10,6 +10,6 @@ phone_number = "Unavailable"
 sitemap_exclude = true
 teaser_image = ""
 teaser_logo = ""
-title = "Juan Ocontrillo"
+title = "Juan Oconitrillo"
 
 +++
