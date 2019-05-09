@@ -8,7 +8,7 @@ graduation_year = 2016
 masthead_image = ""
 phone_number = " 8532-3083 "
 sitemap_exclude = true
-teaser_image = "/uploads/2018/05/15/isa.png"
+teaser_image = "/uploads/2019/05/09/viveelsueno_07.jpg"
 teaser_logo = "/uploads/2018/05/26/isa-logo.png"
 title = "Isa Obando"
 
