@@ -8,7 +8,7 @@ graduation_year = 2018
 masthead_image = ""
 phone_number = "8363-5353 "
 sitemap_exclude = true
-teaser_image = ""
+teaser_image = "/uploads/2019/05/09/K Vindas.jpg"
 teaser_logo = "/uploads/2018/05/29/pollo-nosara.jpg"
 title = "Karen Vindas"
 
