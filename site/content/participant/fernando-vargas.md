@@ -2,7 +2,6 @@
 brand_name = "Cabañas  Las Delicias "
 business_location_name = "Las Delicias, Garza"
 business_sector = "Accomodations"
-draft = true
 external_url = "https://www.facebook.com/hotellasdeliciascr/"
 graduation_year = 2019
 phone_number = "8310-2616"
