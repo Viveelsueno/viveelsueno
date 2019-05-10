@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/ruth-juarez-cordoba.es.md
 - site/content/participant/fernando-vargas.md
 - site/content/participant/cecilia-ramirez-salas.md
 - site/content/participant/edith-quiros-avila.md
@@ -110,7 +111,6 @@ pages:
 - site/content/participant/ana-rosales.md
 - site/content/participant/saray-zeledon-rojas.md
 - site/content/participant/eraida-diaz.md
-- site/content/participant/ruth-juarez-cordoba.es.md
 - site/content/participant/luis-diego-perez-jiron.md
 - site/content/participant/virginia-alfaro-cordero.es.md
 - site/content/participant/iris-jiron-castillo.md
