@@ -2,7 +2,6 @@
 brand_name = "Creaciones y Galería Shir-Art  "
 business_location_name = "Esperanza"
 business_sector = "Artisans"
-draft = true
 external_url = "https://www.facebook.com/Creaciones-y-Galer%C3%ADa-Shir-Art-887686201320562/"
 graduation_year = 2019
 phone_number = " 6152-7358"
