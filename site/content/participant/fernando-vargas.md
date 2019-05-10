@@ -1,5 +1,5 @@
 +++
-brand_name = "Cabanas Las Delicias "
+brand_name = "Cabañas  Las Delicias "
 business_location_name = "Las Delicias, Garza"
 business_sector = "Accomodations"
 draft = true
