@@ -2,7 +2,6 @@
 brand_name = "Titas Artes Manuales (decorations for special events)"
 business_location_name = "Nosara Centro"
 business_sector = "Artisans"
-draft = true
 external_url = "https://www.facebook.com/Tita-Artes-Manuales-542044092656897/"
 graduation_year = 2016
 phone_number = "8362-1025"
