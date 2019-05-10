@@ -2,7 +2,6 @@
 brand_name = "Lenguaje Universal"
 business_location_name = "Garza"
 business_sector = "Artisans"
-draft = true
 external_url = "https://www.facebook.com/Lenguajeuniversalcr/"
 graduation_year = 2019
 phone_number = "8304-7237"
