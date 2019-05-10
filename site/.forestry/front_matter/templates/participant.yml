@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/rebeca-montero-y-manrique-vargas.md
 - site/content/participant/shirley-barboza-ruiz.md
 - site/content/participant/ruth-juarez-cordoba.es.md
 - site/content/participant/fernando-vargas.md
