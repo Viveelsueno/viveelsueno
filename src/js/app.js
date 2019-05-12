@@ -12,7 +12,7 @@ const isExternalLink = ($this) => {
   return domain !== host;
 };
 const BUSINESS_SEARCH_INDEX_LOADED = 'ves.business_search_index_loaded';
-const CURRENT_LANGUAGE = window.location.pathname.indexOf('/es') === 0 ? 'es' : 'en';
+const CURRENT_LANGUAGE = document.querySelector('html').getAttribute('lang');
 const getLanguagePrefix = (language) => ['/es', ''][['es', 'en'].indexOf(language)];
 const getCurrentLanguagePrefix = () => getLanguagePrefix(CURRENT_LANGUAGE);
 
@@ -228,11 +228,22 @@ $(document).ready(() => {
     $results.html(
       results.slice(0, 3).map((result) => (
         `<div class="businesses__business-teaser">
-          <div class="businesses__business-sector">${result.business_sector}</div>
-          <div class="businesses__business-name">${result.business_name}</div>
-          <div class="businesses__business-location">${result.location}</div>
+          <a class="businesses__business-link" href="${result.url}">
+            <img src="${result.business_logo}" class="businesses__business-logo" />
+            <div class="businesses__business-info">
+              <div class="businesses__business-sector">${result.business_sector}</div>
+              <div class="businesses__business-name">${result.business_name}</div>
+              <div class="businesses__business-location">
+                <span class="businesses__business-location-icon"></span>
+                ${result.location}
+              </div>
+            </div>
+          </a>
         </div>`
-      ))
+      )).join('') +
+      `<a href="${getCurrentLanguagePrefix()}/participant" class="businesses__see-all">
+        ${CURRENT_LANGUAGE === 'en' ? 'see all businesses' : 'ver todos los negocios'}
+       </a>`
     );
   };
 
@@ -276,7 +287,8 @@ $(document).ready(() => {
       $input.bind('keyup', () => {
         clearTimeout(timeout);
         timeout = setTimeout(() => {
-          const newValue = $input.val();
+          let newValue = $input.val();
+          newValue = newValue || 'Nosara';
           const results = window.BUSINESS_SEARCH_INDEX.search(newValue);
           applySearchResults($results, results);
         }, 250);
