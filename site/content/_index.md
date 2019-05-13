@@ -19,7 +19,7 @@ url = "https://www.viveelsuenocr.org/uploads/2019/01/26/VES-directory-updated-ja
 blurb = "Participants are offered a 40 hour / 2 week intensive business training by teaching group Yo Emprendedor at the David Kitson Library. Topics include Business Registration,  Customer Service, Business Plans, Marketing, Accounting, etc."
 title = "Intensive Business Training"
 [program.item_2]
-blurb = "Participants are offered 10 months of 2 hour, twice weekly English classes, tailored to our participant's individual businesses and taught by a TEFL certified instructor in the classrooms of the Asociación Edunámica. "
+blurb = "Participants are offered 10 months of 2 hour, twice weekly English classes, tailored to our participant's individual businesses and taught by a TEFL certified instructor in the classrooms of the Asociación Edunámica and the Biblioteca David Kitson."
 title = "English Classes"
 [program.item_3]
 blurb = "Participants are offered one on one session with our graphics design artist, Zacc Pollit to create a personalized, professional logo and a professional photo session with photographer, Veronica Monge to help them with their marketing and advertising."
