@@ -4,7 +4,7 @@ const fetch = window.fetch || (() => ({
   })
 }));
 const isExternalLink = ($this) => {
-  const url = $this.attr('href');
+  const url = $this.getAttribute('href');
   const host = window.location.hostname.toLowerCase();
   const regex = new RegExp('^(?:(?:f|ht)tp(?:s)?\:)?//(?:[^\@]+\@)?([^:/]+)', 'im');
   const match = url.match(regex);
@@ -45,17 +45,23 @@ $(document).ready(() => {
 
   $('a').each(function() {
     const $this = $(this);
-    if (isExternalLink($this)) {
+    if (isExternalLink(this)) {
       $this.addClass('js-outbound-link');
       $this.attr('target', '_blank');
     }
   });
 
+  let externalClickRealized = false;
   $(document).on('click', 'a', function(event) {
-    if (isExternalLink($(event.target))) {
+    const $link = $(event.target).closest('a')[0];
+    if (isExternalLink($link)) {
       event.preventDefault();
+      externalClickRealized = false;
       function clickLink() {
-        window.open($(event.target).attr('href'), '_blank');
+        if (!externalClickRealized) {
+          window.open($link.getAttribute('href'), '_blank');
+          externalClickRealized = true;
+        }
       }
       setTimeout(clickLink, 1000);
 
@@ -228,7 +234,7 @@ $(document).ready(() => {
     $results.html(
       results.slice(0, 3).map((result) => (
         `<div class="businesses__business-teaser">
-          <a class="businesses__business-link" href="${result.url}">
+          <a target="_blank" class="businesses__business-link" href="${result.url}">
             <img src="${result.business_logo}" class="businesses__business-logo" />
             <div class="businesses__business-info">
               <div class="businesses__business-sector">${result.business_sector}</div>
