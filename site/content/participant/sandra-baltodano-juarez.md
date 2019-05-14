@@ -2,7 +2,6 @@
 brand_name = "Sala de Belleza Sandy(hairstylist)"
 business_location_name = "Nosara Centro"
 business_sector = "Beauty and Salon Services"
-draft = true
 external_url = "https://www.facebook.com/saladebellezasandynosara/"
 graduation_year = 2018
 phone_number = "8827-5986"
