@@ -2,7 +2,6 @@
 brand_name = "Nosara Cell Service (sales, repairs and accessories)"
 business_location_name = "Nosara "
 business_sector = "Cell Phone Services"
-draft = true
 external_url = "https://www.facebook.com/nosaracellservice/"
 graduation_year = 2018
 phone_number = "7293-7813"
