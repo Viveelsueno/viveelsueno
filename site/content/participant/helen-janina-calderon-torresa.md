@@ -2,7 +2,6 @@
 brand_name = "Generacion"
 business_location_name = "Nosara"
 business_sector = "Beauty and Salon Services"
-draft = true
 external_url = "https://www.facebook.com/Generaci%C3%B3n-Productos-de-Belleza-313590252777484/"
 graduation_year = 2018
 phone_number = "7063-2370"
