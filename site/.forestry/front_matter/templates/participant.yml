@@ -91,11 +91,11 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/sandra-baltodano-juarez.md
 - site/content/participant/rocio-lara.md
 - site/content/participant/meribeth-méndez-delgado.md
 - site/content/participant/helen-janina-calderon-torresa.md
 - site/content/participant/melannie-alvarado-díaz.md
-- site/content/participant/sandra-baltodano-juarez.md
 - site/content/participant/kerlyn-aragón-ruiz.md
 - site/content/participant/alexandra-perez.md
 - site/content/participant/claudio-barrantes.md
