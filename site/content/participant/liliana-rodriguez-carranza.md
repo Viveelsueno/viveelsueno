@@ -2,7 +2,6 @@
 brand_name = "Mantenimiento y Limpieza Carranza "
 business_location_name = "Nosara"
 business_sector = "Cleaning Services"
-draft = true
 external_url = "https://www.facebook.com/carranza.mantenimiento.39"
 graduation_year = 2019
 phone_number = "8371-1759"
