@@ -2,7 +2,6 @@
 brand_name = "Leo (Bathing suits)"
 business_location_name = "Arenales de Nosara"
 business_sector = "Clothing Stores"
-draft = true
 external_url = "https://www.facebook.com/leonosara/"
 graduation_year = 2019
 phone_number = "6150-4153"
