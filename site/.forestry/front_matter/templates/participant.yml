@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/annabelle-cortez.md
 - site/content/participant/liliana-rodriguez-carranza.md
 - site/content/participant/ana-edith-ruiz.md
 - site/content/participant/sandra-baltodano-juarez.md
