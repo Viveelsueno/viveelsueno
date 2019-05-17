@@ -10,7 +10,7 @@ sections:
   create: all
   match: "*.md"
   exclude: "*.es.md"
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - home-page
   - content-page
@@ -19,7 +19,7 @@ sections:
   label: Pages - ES
   create: all
   match: "*.es.md"
-  new_doc_ext: ".es.md"
+  new_doc_ext: es.md
   templates:
   - content-page
   - home-page
@@ -63,7 +63,7 @@ sections:
   create: all
   match: "**/*.md"
   exclude: "**/*.es.md"
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - success-story
 - type: directory
@@ -80,7 +80,7 @@ sections:
   create: all
   match: "**/*.md"
   exclude: "**/*.es.md"
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - team
 - type: directory
@@ -88,7 +88,7 @@ sections:
   label: Team Members - ES
   create: all
   match: "**/*.es.md"
-  new_doc_ext: ".es.md"
+  new_doc_ext: es.md
   templates:
   - team
 - type: directory
