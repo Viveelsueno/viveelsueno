@@ -5,31 +5,71 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: site/content/event
-  label: Events
+  path: site/content/success-story
+  label: Success Story - ES
   create: all
-  match: "**/*"
+  match: "**/*.es.md"
+  new_doc_ext: ".es.md"
+  templates:
+  - success-story
+- type: directory
+  path: site/content/sponsor
+  label: Sponsor - ES
+  create: all
+  match: "**/*.es.md"
+  new_doc_ext: ".es.md"
+  templates:
+  - sponsor
+- type: directory
+  path: site/content/participant
+  label: Participant - ES
+  create: all
+  match: "**/*.es.md"
+  new_doc_ext: ".es.md"
+  templates:
+  - participant
+- type: directory
+  path: site/content/event
+  label: Events - ES
+  create: all
+  match: "**/*.es.md"
+  new_doc_ext: ".es.md"
+  templates:
+  - event
+- type: directory
+  path: site/content/event
+  label: Events - EN
+  create: all
+  match: "**/*.md"
+  exclude: "**/*.es.md"
+  new_doc_ext: ".md"
   templates:
   - event
 - type: directory
   path: site/content/participant
-  label: Participant
+  label: Participant - EN
   create: all
-  match: "**/*"
+  match: "**/*.md"
+  exclude: "**/*.es.md"
+  new_doc_ext: ".md"
   templates:
   - participant
 - type: directory
   path: site/content/sponsor
-  label: Sponsor
+  label: Sponsor - EN
   create: all
-  match: "**/*"
+  match: "**/*.md"
+  exclude: "**/*.es.md"
+  new_doc_ext: ".md"
   templates:
   - sponsor
 - type: directory
   path: site/content/success-story
-  label: Success story
+  label: Success Story - EN
   create: all
-  match: "**/*"
+  match: "**/*.md"
+  exclude: "**/*.es.md"
+  new_doc_ext: ".md"
   templates:
   - success-story
 - type: directory
