@@ -9,7 +9,7 @@ sections:
   label: Success Story - ES
   create: all
   match: "**/*.es.md"
-  new_doc_ext: ".es.md"
+  new_doc_ext: es.md
   templates:
   - success-story
 - type: directory
@@ -17,7 +17,7 @@ sections:
   label: Sponsor - ES
   create: all
   match: "**/*.es.md"
-  new_doc_ext: ".es.md"
+  new_doc_ext: es.md
   templates:
   - sponsor
 - type: directory
@@ -25,7 +25,7 @@ sections:
   label: Participant - ES
   create: all
   match: "**/*.es.md"
-  new_doc_ext: ".es.md"
+  new_doc_ext: es.md
   templates:
   - participant
 - type: directory
@@ -33,7 +33,7 @@ sections:
   label: Events - ES
   create: all
   match: "**/*.es.md"
-  new_doc_ext: ".es.md"
+  new_doc_ext: es.md
   templates:
   - event
 - type: directory
@@ -42,7 +42,7 @@ sections:
   create: all
   match: "**/*.md"
   exclude: "**/*.es.md"
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - event
 - type: directory
@@ -51,7 +51,7 @@ sections:
   create: all
   match: "**/*.md"
   exclude: "**/*.es.md"
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - participant
 - type: directory
@@ -60,7 +60,7 @@ sections:
   create: all
   match: "**/*.md"
   exclude: "**/*.es.md"
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - sponsor
 - type: directory
@@ -69,7 +69,7 @@ sections:
   create: all
   match: "**/*.md"
   exclude: "**/*.es.md"
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - success-story
 - type: directory
