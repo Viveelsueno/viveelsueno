@@ -5,30 +5,109 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: site/content/participant
-  label: Participant
+  path: site/content
+  label: Pages - EN
   create: all
-  match: "**/*"
-- type: directory
-  path: site/content/sponsor
-  label: Sponsor
-  create: all
-  match: "**/*"
-- type: directory
-  path: site/content/success-story
-  label: Success story
-  create: all
-  match: "**/*"
-- type: directory
-  path: site/content/team
-  label: Team
-  create: all
-  match: "**/*"
+  match: "*.md"
+  exclude: "*.es.md"
+  new_doc_ext: md
+  templates:
+  - home-page
+  - content-page
 - type: directory
   path: site/content
-  label: Pages
+  label: Pages - ES
   create: all
-  match: "*"
+  match: "*.es.md"
+  new_doc_ext: es.md
+  templates:
+  - content-page
+  - home-page
+- type: directory
+  path: site/content/event
+  label: Events - EN
+  create: all
+  match: "**/*.md"
+  exclude: "**/*.es.md"
+  new_doc_ext: md
+  templates:
+  - event
+- type: directory
+  path: site/content/event
+  label: Events - ES
+  create: all
+  match: "**/*.es.md"
+  new_doc_ext: es.md
+  templates:
+  - event
+- type: directory
+  path: site/content/participant
+  label: Participant - EN
+  create: all
+  match: "**/*.md"
+  exclude: "**/*.es.md"
+  new_doc_ext: md
+  templates:
+  - participant
+- type: directory
+  path: site/content/participant
+  label: Participant - ES
+  create: all
+  match: "**/*.es.md"
+  new_doc_ext: es.md
+  templates:
+  - participant
+- type: directory
+  path: site/content/success-story
+  label: Success Story - EN
+  create: all
+  match: "**/*.md"
+  exclude: "**/*.es.md"
+  new_doc_ext: md
+  templates:
+  - success-story
+- type: directory
+  path: site/content/success-story
+  label: Success Story - ES
+  create: all
+  match: "**/*.es.md"
+  new_doc_ext: es.md
+  templates:
+  - success-story
+- type: directory
+  path: site/content/team
+  label: Team Members - EN
+  create: all
+  match: "**/*.md"
+  exclude: "**/*.es.md"
+  new_doc_ext: md
+  templates:
+  - team
+- type: directory
+  path: site/content/team
+  label: Team Members - ES
+  create: all
+  match: "**/*.es.md"
+  new_doc_ext: es.md
+  templates:
+  - team
+- type: directory
+  path: site/content/sponsor
+  label: Sponsor - EN
+  create: all
+  match: "**/*.md"
+  exclude: "**/*.es.md"
+  new_doc_ext: md
+  templates:
+  - sponsor
+- type: directory
+  path: site/content/sponsor
+  label: Sponsor - ES
+  create: all
+  match: "**/*.es.md"
+  new_doc_ext: es.md
+  templates:
+  - sponsor
 upload_dir: site/static/uploads
 public_path: "/uploads"
 front_matter_path: ''
