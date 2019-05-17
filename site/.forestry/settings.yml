@@ -16,21 +16,29 @@ sections:
   label: Participant
   create: all
   match: "**/*"
+  templates:
+  - participant
 - type: directory
   path: site/content/sponsor
   label: Sponsor
   create: all
   match: "**/*"
+  templates:
+  - sponsor
 - type: directory
   path: site/content/success-story
   label: Success story
   create: all
   match: "**/*"
+  templates:
+  - success-story
 - type: directory
   path: site/content/team
   label: Team
   create: all
   match: "**/*"
+  templates:
+  - team
 - type: directory
   path: site/content
   label: Pages
