@@ -5,6 +5,13 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: site/content/event
+  label: Events
+  create: all
+  match: "**/*"
+  templates:
+  - event
+- type: directory
   path: site/content/participant
   label: Participant
   create: all
