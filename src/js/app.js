@@ -4,13 +4,21 @@ const fetch = window.fetch || (() => ({
   })
 }));
 const isExternalLink = ($this) => {
-  const url = $this.attr('href');
+  const url = $this.getAttribute('href');
   const host = window.location.hostname.toLowerCase();
   const regex = new RegExp('^(?:(?:f|ht)tp(?:s)?\:)?//(?:[^\@]+\@)?([^:/]+)', 'im');
   const match = url.match(regex);
   const domain = ((match ? match[1].toString() : ((url.indexOf(':') < 0) ? host : ''))).toLowerCase();
   return domain !== host;
 };
+const BUSINESS_SEARCH_INDEX_LOADED = 'ves.business_search_index_loaded';
+const CURRENT_LANGUAGE = document.querySelector('html').getAttribute('lang');
+const getLanguagePrefix = (language) => ['/es', ''][['es', 'en'].indexOf(language)];
+const getCurrentLanguagePrefix = () => getLanguagePrefix(CURRENT_LANGUAGE);
+
+import 'regenerator-runtime/runtime';
+import { Search } from 'js-search';
+// import preact from 'preact';
 import $ from 'jquery';
 
 $(document).ready(() => {
@@ -37,17 +45,23 @@ $(document).ready(() => {
 
   $('a').each(function() {
     const $this = $(this);
-    if (isExternalLink($this)) {
+    if (isExternalLink(this)) {
       $this.addClass('js-outbound-link');
       $this.attr('target', '_blank');
     }
   });
 
+  let externalClickRealized = false;
   $(document).on('click', 'a', function(event) {
-    if (isExternalLink($(event.target))) {
+    const $link = $(event.target).closest('a')[0];
+    if (isExternalLink($link)) {
       event.preventDefault();
+      externalClickRealized = false;
       function clickLink() {
-        window.open($(event.target).attr('href'), '_blank');
+        if (!externalClickRealized) {
+          window.open($link.getAttribute('href'), '_blank');
+          externalClickRealized = true;
+        }
       }
       setTimeout(clickLink, 1000);
 
@@ -215,4 +229,91 @@ $(document).ready(() => {
       }
     }, 'json');
   });
+
+  const applySearchResults = ($results, results) => {
+    $results.html(
+      results.slice(0, 3).map((result) => (
+        `<div class="businesses__business-teaser">
+          <a target="_blank" class="businesses__business-link" href="${result.url}">
+            <img src="${result.business_logo}" class="businesses__business-logo" />
+            <div class="businesses__business-info">
+              <div class="businesses__business-sector">${result.business_sector}</div>
+              <div class="businesses__business-name">${result.business_name}</div>
+              <div class="businesses__business-location">
+                <span class="businesses__business-location-icon"></span>
+                ${result.location}
+              </div>
+            </div>
+          </a>
+        </div>`
+      )).join('') +
+      `<a href="${getCurrentLanguagePrefix()}/participant" class="businesses__see-all">
+        ${CURRENT_LANGUAGE === 'en' ? 'see all businesses' : 'ver todos los negocios'}
+       </a>`
+    );
+  };
+
+  $('#business-search-homepage').each(function() {
+    const $this = $(this);
+    document.addEventListener(BUSINESS_SEARCH_INDEX_LOADED, () => {
+      const $input = $this.children('input').first();
+      const $results = $this.children('#business-search-homepage-results').first();
+      const currValue = $input.val();
+
+      // Search the index if the user had typed
+      // something in before the results loaded
+      if (currValue !== '') {
+        applySearchResults($results, window.BUSINESS_SEARCH_INDEX.search(currValue));
+      } else {
+        applySearchResults($results, window.BUSINESS_SEARCH_INDEX.search('Nosara'));
+      }
+
+      // Set the placeholder to real examples
+      const businesses = window.BUSINESS_SEARCH_INDEX._documents;
+      let businessExample;
+      let sectorExample;
+      let locationExample;
+      try {
+        businessExample = businesses[0].business_name;
+        sectorExample = businesses[1].business_sector;
+        locationExample = businesses[2].location;
+      } catch (err) {}
+      $input.attr('placeholder', `${
+        CURRENT_LANGUAGE === 'es'
+        ? 'p.ej.'
+        : 'eg.'
+      } ${sectorExample}, ${locationExample} ${
+        CURRENT_LANGUAGE === 'es'
+        ? 'o'
+        : 'or'
+      } ${businessExample}`);
+
+      // Search the index after 250ms of no typing
+      let timeout;
+      $input.bind('keyup', () => {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => {
+          let newValue = $input.val();
+          newValue = newValue || 'Nosara';
+          const results = window.BUSINESS_SEARCH_INDEX.search(newValue);
+          applySearchResults($results, results);
+        }, 250);
+      });
+    });
+  });
+
+  const fetchSearchableBusinesses = async () => {
+    try {
+      const response = await fetch(`${getCurrentLanguagePrefix()}/participant/index.json`);
+      const json = await response.json();
+
+      window.BUSINESS_SEARCH_INDEX = new Search('id');
+      window.BUSINESS_SEARCH_INDEX.addIndex('location');
+      window.BUSINESS_SEARCH_INDEX.addIndex('business_sector');
+      window.BUSINESS_SEARCH_INDEX.addIndex('business_name');
+      window.BUSINESS_SEARCH_INDEX.addDocuments(json.businesses);
+      document.dispatchEvent(new CustomEvent(BUSINESS_SEARCH_INDEX_LOADED));
+    } catch (err) {}
+  };
+  fetchSearchableBusinesses();
 });

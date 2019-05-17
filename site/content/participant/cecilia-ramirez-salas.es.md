@@ -1,6 +1,6 @@
 +++
 brand_name = "Apartamentos Aeropuerto Nosara "
-business_location_name = "In front of Nosara Airport"
+business_location_name = "En frente del aeropuerto Nosara"
 business_sector = "Accomodations"
 external_url = ""
 graduation_year = 2018

@@ -1,5 +1,5 @@
 +++
-brand_name = "Creaciones y Galería Shir-Art  "
+brand_name = "Creaciones y Galería Shir-Art"
 business_location_name = "Esperanza"
 business_sector = "Artisans"
 external_url = "https://www.facebook.com/Creaciones-y-Galer%C3%ADa-Shir-Art-887686201320562/"

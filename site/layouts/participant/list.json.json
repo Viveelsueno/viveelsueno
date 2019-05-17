@@ -1,0 +1,21 @@
+{{ $.Scratch.Set "c1" 0 }}
+{
+  "businesses": [
+    {{ range $index, $element := where $.Site.Pages "Section" "participant" }}
+      {{ if and (and (and (and (isset .Params "brand_name") (isset .Params "business_sector")) (isset .Params "business_location_name")) (isset .Params "external_url")) (ne .Params.external_url "") }}
+      {{ if ne ($.Scratch.Get "c1") 0 }},{{ end }}
+      {{ $.Scratch.Add "c1" 1 }}
+      {
+        "id": "{{ md5 (print .Params.brand_name .Title) }}",
+        {{ if ne .Params.phone_number "Unavailable" }}"phone_number": "{{ .Params.phone_number }}",{{ end }}
+        "graduate_name": "{{ .Title }}",
+        "business_name": "{{ .Params.brand_name }}",
+        "business_sector": "{{ i18n .Params.business_sector }}",
+        "location": "{{ .Params.business_location_name }}",
+        "business_logo": "{{ .Params.teaser_logo }}",
+        "url": "{{ .Params.external_url }}"
+      }
+      {{ end }}
+    {{ end }}
+  ]
+}
