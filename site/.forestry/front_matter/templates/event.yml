@@ -27,3 +27,5 @@ fields:
   hidden: true
   label: Sitemap Exclude
   default: true
+pages:
+- site/content/event/new-event.md
