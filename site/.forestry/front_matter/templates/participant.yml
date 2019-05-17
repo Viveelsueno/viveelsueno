@@ -91,6 +91,8 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/yohana-betena-naravez.es.md
+- site/content/participant/ileana-aviles-mayorga.md
 - site/content/participant/yorleny-arrieta-casano.md
 - site/content/participant/annabelle-cortez.md
 - site/content/participant/liliana-rodriguez-carranza.md
@@ -111,7 +113,6 @@ pages:
 - site/content/participant/edith-quiros-avila.md
 - site/content/participant/yisenia-rojas-bolanos.md
 - site/content/participant/ileana-aviles-mayorga-1.md
-- site/content/participant/ileana-aviles-mayorga.md
 - site/content/participant/edith-quiros-avila.es.md
 - site/content/participant/ileana-aviles.es.md
 - site/content/participant/isa-obando.md
@@ -132,7 +133,6 @@ pages:
 - site/content/participant/graciela-lopez-alfaro.es.md
 - site/content/participant/maria-fernanda-alvarado-arrieta.md
 - site/content/participant/leda-patricia-matarrita-arroya.es.md
-- site/content/participant/yohana-betena-naravez.es.md
 - site/content/participant/diego-lopez-matarrita.es.md
 - site/content/participant/warren-arrieta-juarez.md
 - site/content/participant/iris-jiron-castillo.es.md
