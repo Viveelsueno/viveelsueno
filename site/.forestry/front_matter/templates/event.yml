@@ -28,4 +28,5 @@ fields:
   label: Sitemap Exclude
   default: true
 pages:
+- site/content/event/new-event-es.md
 - site/content/event/new-event.md
