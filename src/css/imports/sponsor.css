@@ -12,6 +12,8 @@ h2.sponsor__title {
   display: inline-block;
   flex: 100%;
   margin: 2rem 1rem;
+  font-size: 0;
+  background-color: #eee;
 
   @media (min-width: 480px) {
     margin: 2rem 3rem;
