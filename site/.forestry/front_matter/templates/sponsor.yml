@@ -14,11 +14,11 @@ fields:
   config:
     maxSize: '2'
 pages:
-- site/content/sponsor/fondo-para-guanacaste-community-fund.es.md
-- site/content/sponsor/prove-nothing.es.md
-- site/content/sponsor/yo-emprendedor.es.md
-- site/content/sponsor/edunamica-asociacion.es.md
-- site/content/sponsor/yo-emprendedor.md
-- site/content/sponsor/fondo-para-guanacaste-community-fund.md
-- site/content/sponsor/prove-nothing.md
 - site/content/sponsor/edunamica-asociacion.md
+- site/content/sponsor/prove-nothing.es.md
+- site/content/sponsor/edunamica-asociacion.es.md
+- site/content/sponsor/yo-emprendedor.es.md
+- site/content/sponsor/fondo-para-guanacaste-community-fund.es.md
+- site/content/sponsor/prove-nothing.md
+- site/content/sponsor/fondo-para-guanacaste-community-fund.md
+- site/content/sponsor/yo-emprendedor.md
