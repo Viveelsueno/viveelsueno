@@ -1,5 +1,4 @@
 +++
-draft = true
 event_date = "2019-06-15T00:00:44+00:00"
 location = "Biblioteca David Kitson, Nosara Centro"
 sitemap_exclude = true
