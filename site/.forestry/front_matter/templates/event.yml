@@ -28,4 +28,5 @@ fields:
   label: Sitemap Exclude
   default: true
 pages:
+- site/content/event/graduate-workshop-on-new-taxes-in-cr-1.md
 - site/content/event/graduate-workshop-on-new-taxes-in-cr.md
