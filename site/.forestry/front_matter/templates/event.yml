@@ -28,6 +28,7 @@ fields:
   label: Sitemap Exclude
   default: true
 pages:
+- site/content/event/charla-para-nuestros-graduados-de-los-impestos-nuevos.es-1.md
 - site/content/event/charla-para-nuestros-graduados-de-los-impestos-nuevos.es.md
 - site/content/event/graduate-workshop-on-new-taxes-in-cr-1.md
 - site/content/event/graduate-workshop-on-new-taxes-in-cr.md
