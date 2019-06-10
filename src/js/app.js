@@ -31,6 +31,7 @@ $(document).ready(() => {
   $('.event__teaser').each(function() {
     const $this = $(this);
     const dateString = $this.data('date');
+    now.timezoneOffset(360); // 360 = -6 UTC
     const date = new Date(Date.parse(dateString));
 
     if (date > now) {
