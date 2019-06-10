@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/arianna-rivera-aviles.md
 - site/content/participant/annabelle-cortez.md
 - site/content/participant/warren-arrieta-juarez.md
 - site/content/participant/maria-fernanda-alvarado-arrieta.md
@@ -104,7 +105,6 @@ pages:
 - site/content/participant/edith-quiros-avila.md
 - site/content/participant/heidi-cordero-castillo.md
 - site/content/participant/erika-rojas-cambronero.md
-- site/content/participant/arianna-rivera-aviles.md
 - site/content/participant/sara-baltodano-lopez.md
 - site/content/participant/esmeralda-lopez.md
 - site/content/participant/yisenia-rojas-bolanos.es.md
