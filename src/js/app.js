@@ -25,13 +25,13 @@ $(document).ready(() => {
   const $root = $('html, body');
   const $flyout = $('.nav__flyout');
   const $navMain = $('.nav__main');
-  const now = new Date();
   let nVisibleEvents = 0;
 
   $('.event__teaser').each(function() {
     const $this = $(this);
     const dateString = $this.data('date');
-    const date = new Date(Date.parse(dateString));
+    const now = new Date().getTime();
+    const date = new Date(Date.parse(dateString)).getTime();
 
     if (date > now) {
       nVisibleEvents++;
