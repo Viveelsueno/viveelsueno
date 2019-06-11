@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/alice-canales-solano.md
 - site/content/participant/andrés-gutiérrez-espinosa.md
 - site/content/participant/néstor-matarrita-espinosa.md
 - site/content/participant/alejandro-jaenz-diaz.md
