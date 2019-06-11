@@ -2,7 +2,6 @@
 brand_name = "Totto Electricidad"
 business_location_name = "Nosara"
 business_sector = "Electricians"
-draft = true
 external_url = "https://www.facebook.com/Totto-Electric-2157014517958535/"
 graduation_year = 2018
 phone_number = "8827-2754 "
