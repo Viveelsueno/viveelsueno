@@ -2,7 +2,6 @@
 brand_name = "Hortalisas de Isla (Greenhouse)"
 business_location_name = "Nosara (behind airport)"
 business_sector = "Agricultural Foods"
-draft = true
 external_url = ""
 graduation_year = 2018
 phone_number = "8986-9551"
