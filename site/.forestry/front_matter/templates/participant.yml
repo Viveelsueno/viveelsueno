@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/roy-david-pérez-chavarría.md
 - site/content/participant/claudio-avila.md
 - site/content/participant/mauricio-castillo-briceño.md
 - site/content/participant/alice-canales-solano.md
