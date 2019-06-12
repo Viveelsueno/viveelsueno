@@ -2,7 +2,6 @@
 brand_name = "Tabacon Dorado Alimentos de Zaragoza"
 business_location_name = "Zaragoza"
 business_sector = "Agricultural Foods"
-draft = true
 external_url = ""
 graduation_year = 2018
 phone_number = "8565-8871"
