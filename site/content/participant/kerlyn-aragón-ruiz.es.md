@@ -2,7 +2,6 @@
 brand_name = "Sugar Momma Reposteria y Dulces"
 business_location_name = "Nosara"
 business_sector = "Baked Goods"
-draft = true
 external_url = ""
 graduation_year = 2018
 phone_number = "8445-1228"
