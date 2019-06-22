@@ -2,7 +2,6 @@
 brand_name = "Ebenezer Cleaning Services"
 business_location_name = "Nosara"
 business_sector = "Cleaning Services"
-draft = true
 external_url = ""
 graduation_year = 2018
 phone_number = "6321-6346"
