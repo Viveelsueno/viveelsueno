@@ -2,7 +2,6 @@
 brand_name = "4 Life Productos y Naturales"
 business_location_name = "Nosara"
 business_sector = "Health Products"
-draft = true
 external_url = "https://www.facebook.com/4lifeproductosnaturalesnosara/"
 graduation_year = 2017
 phone_number = "6069-4867"
