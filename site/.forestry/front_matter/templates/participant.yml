@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/ulises-campos.md
 - site/content/participant/julio-noguera-hernandez.md
 - site/content/participant/cruz-maria-rosales-dinarte.md
 - site/content/participant/isabel-méndez-delgado.md
