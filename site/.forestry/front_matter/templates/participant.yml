@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/karla-cabalceta-salas.md
 - site/content/participant/thelma-miranda-villega.md
 - site/content/participant/guillermo-mora.md
 - site/content/participant/maria-jesus-villagra.md
