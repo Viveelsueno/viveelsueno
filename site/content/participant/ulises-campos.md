@@ -2,7 +2,6 @@
 brand_name = "Pinturas Nosara"
 business_location_name = "Nosara"
 business_sector = "Paint Services"
-draft = true
 external_url = "https://www.facebook.com/Pinturas-Nosara-175497299676780/"
 graduation_year = 2018
 phone_number = "8752-3450"
