@@ -28,6 +28,7 @@ fields:
   label: Sitemap Exclude
   default: true
 pages:
+- site/content/event/2-week-40-hour-ves-business-trainings.md
 - site/content/event/intercambio-nuestros-participantes-practican-su-ingles.es.md
 - site/content/event/intercambio-english-speakers-come-ractice-your-spanish-with-our-participants.md
 - site/content/event/charla-para-nuestros-graduados-de-los-impestos-nuevos.es.md
