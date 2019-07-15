@@ -2,7 +2,6 @@
 brand_name = "Saborcitos Alan y Frey Comidas Express"
 business_location_name = "Nosara"
 business_sector = "Restaurants and Catering"
-draft = true
 external_url = "https://www.facebook.com/Rancho-Tico-1697434136977870/"
 graduation_year = 2018
 phone_number = "8473-6949"
