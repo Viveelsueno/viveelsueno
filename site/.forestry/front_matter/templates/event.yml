@@ -28,6 +28,7 @@ fields:
   label: Sitemap Exclude
   default: true
 pages:
+- site/content/event/community-business-talk-on-entreprenuerism.es.md
 - site/content/event/sabor-de-nosara-event.es.md
 - site/content/event/sabor-de-nosara-event.md
 - site/content/event/2-semanas-40-horas-talleres-de-negocios.es.md
