@@ -7,6 +7,6 @@ graduation_year = 2018
 phone_number = "8473-6949"
 teaser_image = "/uploads/2019/07/15/Saborcitos.jpg"
 teaser_logo = "/uploads/2019/07/15/saborcitos.jpg"
-title = "Freisy Maroto Carrillo Alan Humberto Jiménez Jiménez"
+title = "Freisy Maroto Carrillo Alan Humberto Jiménez Jiménez "
 
 +++
