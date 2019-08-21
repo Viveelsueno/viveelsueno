@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/alexandra-perez.md
 - site/content/participant/alexandra-perez.es.md
 - site/content/participant/alejandro-jaenz-diaz.md
 - site/content/participant/alejandro-jaenz-diaz.es.md
@@ -208,7 +209,6 @@ pages:
 - site/content/participant/meribeth-méndez-delgado.md
 - site/content/participant/helen-janina-calderon-torresa.md
 - site/content/participant/melannie-alvarado-díaz.md
-- site/content/participant/alexandra-perez.md
 - site/content/participant/isa-obando.md
 - site/content/participant/karen-vindas.md
 - site/content/participant/yohana-betena-naravez.md
