@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/alejandro-jaenz-diaz.md
 - site/content/participant/alejandro-jaenz-diaz.es.md
 - site/content/participant/adilsa-fajardo-carrillo.es.md
 - site/content/participant/geovanny-juarez.md
@@ -191,7 +192,6 @@ pages:
 - site/content/participant/alicia-artavia.md
 - site/content/participant/adilsa-fajardo-carrillo.md
 - site/content/participant/néstor-matarrita-espinosa.md
-- site/content/participant/alejandro-jaenz-diaz.md
 - site/content/participant/arianna-rivera-aviles.md
 - site/content/participant/esmeralda-lopez.md
 - site/content/participant/carmen-rosales-dinarte.es.md
