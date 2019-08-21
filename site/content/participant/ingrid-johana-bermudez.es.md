@@ -2,7 +2,6 @@
 brand_name = "Nosara Dulce"
 business_location_name = "Arenales de Nosara"
 business_sector = "Baked Goods"
-draft = true
 external_url = ""
 graduation_year = 2017
 phone_number = "8533-0786"
