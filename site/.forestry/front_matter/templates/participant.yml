@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/adilsa-fajardo-carrillo.es.md
 - site/content/participant/geovanny-juarez.md
 - site/content/participant/adrian-marin.es.md
 - site/content/participant/karla-cabalceta-salas.es.md
@@ -141,7 +142,6 @@ pages:
 - site/content/participant/alicia-artavia.es.md
 - site/content/participant/heidi-cordero-castillo.es.md
 - site/content/participant/cinthya-rosales.es.md
-- site/content/participant/adilsa-fajardo-carrillo.es.md
 - site/content/participant/shirley-rojas-lopez.es.md
 - site/content/participant/yohan-mendez-ruiz.es.md
 - site/content/participant/arianna-rivera-aviles.es.md
