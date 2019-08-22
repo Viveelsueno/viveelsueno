@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/yaritza-sanabria-jimenez-walker.es.md
 - site/content/participant/victoria-juárez-juárez.md
 - site/content/participant/victoria-juárez-juárez.es.md
 - site/content/participant/ulises-campos.es.md
