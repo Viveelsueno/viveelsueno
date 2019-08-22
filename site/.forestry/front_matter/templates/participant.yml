@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/maikol-alvarez-sanchez.md
 - site/content/participant/magdalena-rivera-obando.es.md
 - site/content/participant/magdalena-rivera-obando.md
 - site/content/participant/julio-noguera-hernandez.es.md
@@ -118,7 +119,6 @@ pages:
 - site/content/participant/ingrid-johana-bermudez.es.md
 - site/content/participant/maritza-juarez.md
 - site/content/participant/kerlyn-aragón-ruiz.md
-- site/content/participant/maikol-alvarez-sanchez.md
 - site/content/participant/maria-isabel-mendoza-barrientos.md
 - site/content/participant/seidy-juárez-rosales.md
 - site/content/participant/ingrid-johana-bermudez.md
