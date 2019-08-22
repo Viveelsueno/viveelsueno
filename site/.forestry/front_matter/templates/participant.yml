@@ -91,8 +91,8 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
-- site/content/participant/seidy-juárez-rosales.md
 - site/content/participant/seidy-juárez-rosales.es.md
+- site/content/participant/seidy-juárez-rosales.md
 - site/content/participant/sandra-baltodano-juarez.md
 - site/content/participant/roy-david-pérez-chavarría.es.md
 - site/content/participant/roy-david-pérez-chavarría.md
