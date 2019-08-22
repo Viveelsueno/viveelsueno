@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/rebeca-montero-y-manrique-vargas.md
 - site/content/participant/mauricio-castillo-briceño.md
 - site/content/participant/mauricio-castillo-briceño.es.md
 - site/content/participant/maria-isabel-mendoza-barrientos.es.md
@@ -182,7 +183,6 @@ pages:
 - site/content/participant/sara-baltodano-lopez.es.md
 - site/content/participant/annabelle-cortez.md
 - site/content/participant/claudio-barrantes.md
-- site/content/participant/rebeca-montero-y-manrique-vargas.md
 - site/content/participant/shirley-barboza-ruiz.md
 - site/content/participant/fernando-vargas.md
 - site/content/participant/cecilia-ramirez-salas.md
