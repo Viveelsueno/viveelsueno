@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/sandra-baltodano-juarez.md
 - site/content/participant/roy-david-pérez-chavarría.es.md
 - site/content/participant/roy-david-pérez-chavarría.md
 - site/content/participant/rebeca-montero-y-manrique-vargas.md
@@ -217,7 +218,6 @@ pages:
 - site/content/participant/yorleny-arrieta-casano.md
 - site/content/participant/liliana-rodriguez-carranza.md
 - site/content/participant/ana-edith-ruiz.md
-- site/content/participant/sandra-baltodano-juarez.md
 - site/content/participant/rocio-lara.md
 - site/content/participant/meribeth-méndez-delgado.md
 - site/content/participant/melannie-alvarado-díaz.md
