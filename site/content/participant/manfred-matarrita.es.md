@@ -2,7 +2,6 @@
 brand_name = "CR CR Pacific Safety (Seguridad Privado)"
 business_location_name = "Nosara"
 business_sector = "Property Management"
-draft = true
 external_url = ""
 graduation_year = 2018
 phone_number = "8822-1797"
