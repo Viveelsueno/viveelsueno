@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/victoria-juárez-juárez.es.md
 - site/content/participant/ulises-campos.es.md
 - site/content/participant/thelma-miranda-villega.es.md
 - site/content/participant/thelma-miranda-villega.md
