@@ -2,7 +2,6 @@
 brand_name = "Kiwi Retreats"
 business_location_name = "Nosara"
 business_sector = "Accomodations"
-draft = true
 external_url = "https://www.facebook.com/kiwiretreats/"
 graduation_year = 2018
 phone_number = "8423-0754"
