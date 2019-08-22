@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/yendy-josé-argüello-gomez.md
 - site/content/participant/yaritza-sanabria-jimenez-walker.md
 - site/content/participant/yaritza-sanabria-jimenez-walker.es.md
 - site/content/participant/victoria-juárez-juárez.md
@@ -144,7 +145,6 @@ pages:
 - site/content/participant/ulises-campos.md
 - site/content/participant/greivin-carrillo-rosales-alexis-carrillo-lopez.md
 - site/content/participant/guillermo-mora.md
-- site/content/participant/yendy-josé-argüello-gomez.md
 - site/content/participant/maria-jesus-villagra.md
 - site/content/participant/sara-baltodano.md
 - site/content/participant/sonia-cordoba-porras.md
