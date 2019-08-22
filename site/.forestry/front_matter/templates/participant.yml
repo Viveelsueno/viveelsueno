@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/yaritza-sanabria-jimenez-walker.md
 - site/content/participant/yaritza-sanabria-jimenez-walker.es.md
 - site/content/participant/victoria-juárez-juárez.md
 - site/content/participant/victoria-juárez-juárez.es.md
@@ -147,7 +148,6 @@ pages:
 - site/content/participant/maria-jesus-villagra.md
 - site/content/participant/sara-baltodano.md
 - site/content/participant/sonia-cordoba-porras.md
-- site/content/participant/yaritza-sanabria-jimenez-walker.md
 - site/content/participant/antonia-rivera-betancourth.md
 - site/content/participant/saray-zeledon-rojas.md
 - site/content/participant/claudio-avila.md
