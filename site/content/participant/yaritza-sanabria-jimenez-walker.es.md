@@ -2,7 +2,6 @@
 brand_name = "Los Tres Hermanos Surf School"
 business_location_name = "Playa Guiones"
 business_sector = "Surf Schools"
-draft = true
 external_url = ""
 graduation_year = 2018
 phone_number = "8712-9401"
