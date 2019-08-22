@@ -2,6 +2,7 @@
 brand_name = "MexTico"
 business_location_name = "Guiones"
 business_sector = "Artisans"
+draft = true
 external_url = "https://www.facebook.com/Mextico-ART-590355944715746/"
 graduation_year = 2018
 phone_number = "8710-6243"
