@@ -1,5 +1,6 @@
 +++
 brand_name = "El Flaco Auto Repuestos"
+business_location_name = "Arenales, Nosara"
 business_sector = "Mechanics"
 date = "2018-04-27T00:04:53Z"
 external_url = "https://www.facebook.com/Repuestos-el-flaco-295523117554388"
