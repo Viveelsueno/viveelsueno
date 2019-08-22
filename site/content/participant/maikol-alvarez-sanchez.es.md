@@ -2,7 +2,6 @@
 brand_name = "Nosara Surf School"
 business_location_name = "Northh Guiones"
 business_sector = "Surf Schools"
-draft = true
 external_url = "www.nosaracrsurfschool.com"
 graduation_year = 2018
 phone_number = "8940-6144"
