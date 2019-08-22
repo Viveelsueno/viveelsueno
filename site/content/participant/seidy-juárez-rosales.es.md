@@ -2,7 +2,6 @@
 brand_name = "Massiel Libreria Arenales"
 business_location_name = "Arenales de Nosara"
 business_sector = "Office Supplies"
-draft = true
 external_url = "https://www.facebook.com/massiel.libre"
 graduation_year = 2018
 phone_number = "8644-7558 "
