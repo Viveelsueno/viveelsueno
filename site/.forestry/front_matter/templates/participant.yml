@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/mauricio-castillo-briceño.es.md
 - site/content/participant/maria-isabel-mendoza-barrientos.es.md
 - site/content/participant/manfred-matarrita.es.md
 - site/content/participant/manfred-matarrita.md
