@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/mauricio-castillo-briceño.md
 - site/content/participant/mauricio-castillo-briceño.es.md
 - site/content/participant/maria-isabel-mendoza-barrientos.es.md
 - site/content/participant/manfred-matarrita.es.md
@@ -142,7 +143,6 @@ pages:
 - site/content/participant/saray-zeledon-rojas.md
 - site/content/participant/roy-david-pérez-chavarría.md
 - site/content/participant/claudio-avila.md
-- site/content/participant/mauricio-castillo-briceño.md
 - site/content/participant/alice-canales-solano.md
 - site/content/participant/isa-obando.es.md
 - site/content/participant/yisenia-rojas-bolanos.es.md
