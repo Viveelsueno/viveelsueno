@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/alicia-artavia.es.md
 - site/content/participant/yeudy-josé-argüello-gomez.es.md
 - site/content/participant/yendy-josé-argüello-gomez.md
 - site/content/participant/yaritza-sanabria-jimenez-walker.md
@@ -165,7 +166,6 @@ pages:
 - site/content/participant/magda-dailey.es.md
 - site/content/participant/jeannette-vargas-ramirez.es.md
 - site/content/participant/karen-vindas.es.md
-- site/content/participant/alicia-artavia.es.md
 - site/content/participant/heidi-cordero-castillo.es.md
 - site/content/participant/cinthya-rosales.es.md
 - site/content/participant/shirley-rojas-lopez.es.md

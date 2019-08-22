@@ -1,9 +1,10 @@
 +++
 brand_name = "El Flaco Auto Repuestos"
+business_location_name = "Arenales de Nosara"
 business_sector = "Mechanics"
 date = "2018-04-28T01:11:47Z"
 external_url = "https://www.facebook.com/Repuestos-el-flaco-295523117554388"
-graduation_year = 2017
+graduation_year = ""
 masthead_image = "/uploads/2018/04/28/alicia-artavia-masthead.jpg"
 phone_number = "(506) 2682-0930"
 sitemap_exclude = true
