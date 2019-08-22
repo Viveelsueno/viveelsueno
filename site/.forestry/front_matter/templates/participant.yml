@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/victoria-juárez-juárez.md
 - site/content/participant/victoria-juárez-juárez.es.md
 - site/content/participant/ulises-campos.es.md
 - site/content/participant/thelma-miranda-villega.es.md
@@ -137,7 +138,6 @@ pages:
 - site/content/participant/kerlyn-aragón-ruiz.md
 - site/content/participant/maria-isabel-mendoza-barrientos.md
 - site/content/participant/ingrid-johana-bermudez.md
-- site/content/participant/victoria-juárez-juárez.md
 - site/content/participant/isabel-méndez-delgado.md
 - site/content/participant/ulises-campos.md
 - site/content/participant/greivin-carrillo-rosales-alexis-carrillo-lopez.md
