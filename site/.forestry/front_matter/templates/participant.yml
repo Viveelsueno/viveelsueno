@@ -91,12 +91,12 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/yendy-josé-argüello-gomez.md
 - site/content/participant/ana-edith-ruiz.md
 - site/content/participant/alice-canales-solano.md
 - site/content/participant/alice-canales-solano.es.md
 - site/content/participant/alicia-artavia.es.md
 - site/content/participant/yeudy-josé-argüello-gomez.es.md
-- site/content/participant/yendy-josé-argüello-gomez.md
 - site/content/participant/yaritza-sanabria-jimenez-walker.md
 - site/content/participant/yaritza-sanabria-jimenez-walker.es.md
 - site/content/participant/victoria-juárez-juárez.md
