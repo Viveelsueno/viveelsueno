@@ -2,7 +2,6 @@
 brand_name = "Hortalisas de Isla"
 business_location_name = "Nosara"
 business_sector = "Farms and Farm Products"
-draft = true
 external_url = ""
 graduation_year = 2018
 phone_number = "8986-9551"
