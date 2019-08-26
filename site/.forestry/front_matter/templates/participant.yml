@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/arianna-rivera-aviles.es.md
 - site/content/participant/yendy-josé-argüello-gomez.md
 - site/content/participant/ana-edith-ruiz.md
 - site/content/participant/alice-canales-solano.md
@@ -172,7 +173,6 @@ pages:
 - site/content/participant/cinthya-rosales.es.md
 - site/content/participant/shirley-rojas-lopez.es.md
 - site/content/participant/yohan-mendez-ruiz.es.md
-- site/content/participant/arianna-rivera-aviles.es.md
 - site/content/participant/isidora-rojas-cambronero.es.md
 - site/content/participant/diego-lopez-matarrita.es.md
 - site/content/participant/erika-rojas-cambronero.es.md
