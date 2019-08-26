@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/néstor-matarrita-espinosa.md
 - site/content/participant/néstor-matarrita-espinosa.es.md
 - site/content/participant/greivin-carrillo-rosales-alexis-carrillo-lopez.es.md
 - site/content/participant/greivin-carrillo-rosales-alexis-carrillo-lopez.md
@@ -219,7 +220,6 @@ pages:
 - site/content/participant/elena-gomez.md
 - site/content/participant/diego-lopez-matarrita.md
 - site/content/participant/adilsa-fajardo-carrillo.md
-- site/content/participant/néstor-matarrita-espinosa.md
 - site/content/participant/arianna-rivera-aviles.md
 - site/content/participant/esmeralda-lopez.md
 - site/content/participant/carmen-rosales-dinarte.es.md
