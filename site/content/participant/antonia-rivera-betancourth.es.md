@@ -2,7 +2,6 @@
 brand_name = "Creaciones A y L"
 business_location_name = "Sta Teresita deNosara"
 business_sector = "Seamstresses"
-draft = true
 external_url = "https://www.facebook.com/creacionesayl/"
 graduation_year = 2018
 phone_number = "8926-4513"
