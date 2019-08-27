@@ -6,7 +6,7 @@ external_url = ""
 graduation_year = 2019
 phone_number = "8409 4033"
 teaser_image = "/uploads/2019/08/27/PSX_20190522_022346.jpg"
-teaser_logo = "/uploads/2019/07/15/VES Grad Logo.jpg"
+teaser_logo = "/uploads/2019/08/27/el-senor-es-mi-sazon (1)-1.jpg"
 title = "Magdalena Rivera Obando"
 
 +++
