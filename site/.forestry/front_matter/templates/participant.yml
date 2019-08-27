@@ -91,6 +91,7 @@ fields:
   name: teaser_logo
   label: Teaser Logo
 pages:
+- site/content/participant/isabel-méndez-delgado.md
 - site/content/participant/isabel-méndez-delgado.es.md
 - site/content/participant/guillermo-mora.md
 - site/content/participant/guillermo-mora.es.md
@@ -158,7 +159,6 @@ pages:
 - site/content/participant/kerlyn-aragón-ruiz.md
 - site/content/participant/maria-isabel-mendoza-barrientos.md
 - site/content/participant/ingrid-johana-bermudez.md
-- site/content/participant/isabel-méndez-delgado.md
 - site/content/participant/ulises-campos.md
 - site/content/participant/sara-baltodano.md
 - site/content/participant/sonia-cordoba-porras.md
