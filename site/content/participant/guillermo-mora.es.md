@@ -2,7 +2,6 @@
 brand_name = "Servicios Electro Mecanico"
 business_location_name = "Nosara"
 business_sector = "Mechanics"
-draft = true
 external_url = "https://www.facebook.com/electriconosara/"
 graduation_year = 2017
 phone_number = "8496-6399"
