@@ -28,6 +28,7 @@ fields:
   label: Sitemap Exclude
   default: true
 pages:
+- site/content/event/intercambio-nuestros-participantes-practican-su-ingles-y-los-voluntarios-practican-su-español.es.md
 - site/content/event/intercambio-nuestros-participantes-practican-su-ingles-y-los-voluntarios-practicna-su-español.es.md
 - site/content/event/intercambio-event-come-have-fun-and-practice-your-spanish-and-help-our-participants-with-their-english.es.md
 - site/content/event/2-week-40-hour-ves-business-trainings.md
