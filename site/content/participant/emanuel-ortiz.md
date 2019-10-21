@@ -2,7 +2,6 @@
 brand_name = "NosPrefa (Prefabricated Homes)"
 business_location_name = "Nosara"
 business_sector = "Construction and Renovations"
-draft = true
 external_url = ""
 graduation_year = "2019"
 phone_number = "8907 2799"
