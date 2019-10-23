@@ -262,5 +262,21 @@
   {
     "id": "Transporation",
     "translation": "Transporation"
+  },
+  {
+    "id": "Recycling",
+    "translation": "Recycling"
+  },
+  {
+    "id": "Health and Wellness",
+    "translation": "Health and Wellness"
+  },
+  {
+    "id": "Recreation / Exercise",
+    "translation": "Recreation / Exercise"
+  },
+  {
+    "id": "Seniors Activities",
+    "translation": "Seniors Activities"
   }
 ]
