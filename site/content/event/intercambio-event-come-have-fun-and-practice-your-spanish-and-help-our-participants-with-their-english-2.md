@@ -1,5 +1,4 @@
 +++
-draft = true
 event_date = 2019-12-13T00:30:53Z
 location = "The new Vive el Sueno space, 2 doors past the library"
 sitemap_exclude = true
