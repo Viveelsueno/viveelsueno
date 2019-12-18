@@ -113,5 +113,5 @@ fields:
       name: text
       label: Text
 pages:
-- site/content/_index.md
 - site/content/_index.es.md
+- site/content/_index.md
