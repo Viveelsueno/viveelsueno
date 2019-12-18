@@ -2,7 +2,6 @@
 brand_name = "Clean Mari"
 business_location_name = "Nosara"
 business_sector = "Cleaning Services"
-draft = true
 external_url = ""
 graduation_year = "2019"
 phone_number = "8978 2275."
