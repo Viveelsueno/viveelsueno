@@ -1,5 +1,4 @@
 +++
-draft = true
 event_date = 2019-12-30T22:03:19Z
 location = "Library"
 sitemap_exclude = true
