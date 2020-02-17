@@ -28,6 +28,7 @@ fields:
   label: Sitemap Exclude
   default: true
 pages:
+- site/content/event/charla-saber-identificar-y-desarrollar-la-idea-de-negocio-gratis.es.md
 - site/content/event/intercambio-event-come-have-fun-and-practice-your-spanish-and-help-our-participants-with-their-english-1.md
 - site/content/event/intercambio-event-come-have-fun-and-practice-your-spanish-and-help-our-participants-with-their-english.md
 - site/content/event/intercambio-nuestros-participantes-practican-su-ingles-y-los-voluntarios-practican-su-español.es-1.md
