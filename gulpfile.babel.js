@@ -59,6 +59,7 @@ gulp.task('fonts', () => (
 // Development server with browsersync
 gulp.task("server", ["hugo", "css", "js", "fonts"], () => {
   browserSync.init({
+    port: 8080,
     server: {
       baseDir: "./dist"
     }

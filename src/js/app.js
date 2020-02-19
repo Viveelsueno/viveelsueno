@@ -3,6 +3,41 @@ const fetch = window.fetch || (() => ({
     then: () => {}
   })
 }));
+
+const getShortMonth = nMonth => {
+  const lang = $('html').attr('lang')
+  const EN = [
+    'jan',
+    'feb',
+    'mar',
+    'apr',
+    'may',
+    'jun',
+    'jul',
+    'aug',
+    'sep',
+    'oct',
+    'nov',
+    'dec'
+  ]
+  const ES = [
+    'enero',
+    'feb',
+    'mar',
+    'abr',
+    'mayo',
+    'jun',
+    'jul',
+    'agosto',
+    'sept',
+    'oct',
+    'nov',
+    'dic'
+  ]
+
+  return lang === 'en' ? EN[nMonth] : ES[nMonth]
+}
+
 const isExternalLink = ($this) => {
   const url = $this.getAttribute('href');
   const host = window.location.hostname.toLowerCase();
@@ -18,7 +53,6 @@ const getCurrentLanguagePrefix = () => getLanguagePrefix(CURRENT_LANGUAGE);
 
 import 'regenerator-runtime/runtime';
 import { Search } from 'js-search';
-// import preact from 'preact';
 import $ from 'jquery';
 
 $(document).ready(() => {
@@ -30,8 +64,24 @@ $(document).ready(() => {
   $('.event__teaser').each(function() {
     const $this = $(this);
     const dateString = $this.data('date');
+    const $time = $this.find('.event__teaser-date');
     const now = new Date().getTime();
-    const date = new Date(Date.parse(dateString)).getTime();
+    const timestampDate = new Date(Date.parse(dateString));
+    const date = timestampDate.getTime();
+
+    const hours = timestampDate.getHours()
+    const minutes = timestampDate.getMinutes()
+    $time.text(`${
+      timestampDate.getDate()
+    } ${
+      getShortMonth(timestampDate.getMonth())
+    } ${
+      timestampDate.getFullYear()
+    } ${
+      hours < 10 ? `0${hours}` : hours
+    }:${
+      minutes < 10 ? `0${minutes}` : minutes
+    }`)
 
     if (date > now) {
       nVisibleEvents++;
