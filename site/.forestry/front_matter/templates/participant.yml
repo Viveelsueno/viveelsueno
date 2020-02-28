@@ -82,6 +82,7 @@ fields:
     - 2017
     - 2018
     - 2019
+    - 2020
   label: Graduation Year
 - type: file
   name: teaser_image
