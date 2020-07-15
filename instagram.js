@@ -6,7 +6,9 @@ const cache = async () => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
 
-  await page.goto('https://www.instagram.com/viveelsueno/');
+  await page.goto('https://www.instagram.com/viveelsueno/', {
+    waitUntil: 'networkidle2'
+  });
   const sources = await page.evaluate(() => {
     if (!Element.prototype.matches) {
       Element.prototype.matches = Element.prototype.msMatchesSelector ||
