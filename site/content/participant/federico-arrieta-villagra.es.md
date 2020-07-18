@@ -1,7 +1,7 @@
 +++
 brand_name = "Piscinas Claras"
 business_location_name = "Nosara"
-business_sector = "General Maintenance and Gardening"
+business_sector = "Pool Services"
 date = "2018-04-06T12:07:05Z"
 external_url = ""
 graduation_year = 2016

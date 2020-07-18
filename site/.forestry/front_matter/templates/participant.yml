@@ -82,6 +82,7 @@ fields:
     - 2017
     - 2018
     - 2019
+    - 2020
   label: Graduation Year
 - type: file
   name: teaser_image
@@ -155,6 +156,7 @@ pages:
 - site/content/participant/heidi-cordero-castillo.es.md
 - site/content/participant/heidi-cordero-castillo.md
 - site/content/participant/helen-janina-calderon-torresa.md
+- site/content/participant/heyner-diaz-matarita.md
 - site/content/participant/ileana-aviles-mayorga.md
 - site/content/participant/ileana-aviles.es.md
 - site/content/participant/ileana-aviles.md

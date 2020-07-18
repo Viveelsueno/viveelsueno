@@ -6,21 +6,11 @@ const cache = async () => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
 
-  await page.goto('https://www.instagram.com/viveelsueno/');
+  await page.goto('https://www.instagram.com/viveelsueno/', {
+    waitUntil: 'networkidle2'
+  });
   const sources = await page.evaluate(() => {
-    if (!Element.prototype.matches) {
-      Element.prototype.matches = Element.prototype.msMatchesSelector ||
-                                  Element.prototype.webkitMatchesSelector;
-    }
-
-    const images = document.querySelectorAll('article img');
-    const data = [];
-
-    for (let i = 0; i < images.length; i++) {
-      data.push({link: images[i].closest('a').href, src: images[i].currentSrc});
-    }
-
-    return data;
+    return [];
   });
 
   // eslint-disable-next-line
