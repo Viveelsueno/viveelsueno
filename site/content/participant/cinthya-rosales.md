@@ -9,7 +9,7 @@ masthead_image = ""
 phone_number = " 8606-8903 "
 sitemap_exclude = true
 teaser_image = "/uploads/2018/05/15/cinthya.png"
-teaser_logo = "/uploads/2019/05/09/375900_276705539033727_2001730450_n.jpg"
+teaser_logo = "/uploads/2020/07/27/104393814_3117739061677050_2863941340613926172_n.jpg"
 title = "Cinthya Rosales"
 
 +++
