@@ -6,10 +6,10 @@ date = "2018-05-15T14:51:55Z"
 external_url = "https://www.facebook.com/Pura-Vida-Nosara-ATV-547295672099398/"
 graduation_year = 2015
 masthead_image = ""
-phone_number = " 2682-0283 or 8484-3413 "
+phone_number = " 8484-3413 "
 sitemap_exclude = true
 teaser_image = "/uploads/2018/05/15/ileana.png"
-teaser_logo = "/uploads/2018/05/26/ileana-logo.png"
+teaser_logo = "/uploads/2020/07/27/pura-vida-atv.jpg"
 title = "Ileana Aviles"
 
 +++
