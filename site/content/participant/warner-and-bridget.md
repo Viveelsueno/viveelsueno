@@ -1,0 +1,13 @@
++++
+brand_name = "Artesanía Warner"
+business_location_name = "North Guiones Beach entrance La Negra"
+business_sector = "Artisans"
+draft = true
+external_url = ""
+graduation_year = 2015
+phone_number = "8524 5816"
+teaser_image = ""
+teaser_logo = "/uploads/2019/07/15/VES Grad Logo.jpg"
+title = "Warner and Bridget"
+
++++
