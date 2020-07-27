@@ -3,7 +3,6 @@ brand_name = "Creaciones Yesi"
 business_location_name = "Arenales, Nosara"
 business_sector = "Office Supplies"
 date = "2018-05-15T14:57:00Z"
-draft = true
 external_url = "https://www.facebook.com/Librer%C3%ADa-Creaciones-Yesi-1123829667644491/"
 graduation_year = 2015
 masthead_image = ""
