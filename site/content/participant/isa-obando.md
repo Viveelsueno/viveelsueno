@@ -1,5 +1,5 @@
 +++
-brand_name = "Panaderia Isa"
+brand_name = "Panadería Isa"
 business_location_name = "250 metres east of Nosara Centro"
 business_sector = "Baked Goods"
 date = "2018-05-15T14:54:14Z"
