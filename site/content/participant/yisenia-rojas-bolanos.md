@@ -1,5 +1,5 @@
 +++
-brand_name = "Creaciones Yesi"
+brand_name = "Librería Creaciones Yesi"
 business_location_name = "Barrio Arenales, Nosara"
 business_sector = "Office Supplies"
 date = "2018-05-15T14:57:00Z"
