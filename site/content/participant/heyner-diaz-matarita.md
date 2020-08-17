@@ -1,5 +1,5 @@
 +++
-brand_name = "Heynor’s Mutlfunctional Man "
+brand_name = "Heyner’s Multifunctional Man "
 business_location_name = "Nosara"
 business_sector = "General Maintenance and Gardening"
 external_url = "https://www.facebook.com/profile.php?id=100005404067610"
