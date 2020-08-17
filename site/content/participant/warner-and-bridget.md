@@ -1,6 +1,6 @@
 +++
 brand_name = "Artesanía Warner"
-business_location_name = "North Guiones Beach entrance La Negra"
+business_location_name = "North Guiones Beach entrance next to La Negra Surf Hotel"
 business_sector = "Artisans"
 external_url = ""
 graduation_year = 2015
