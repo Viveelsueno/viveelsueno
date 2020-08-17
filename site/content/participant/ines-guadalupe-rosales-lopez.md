@@ -1,5 +1,5 @@
 +++
-brand_name = "Queques y Reposteria Nosara"
+brand_name = "Queques & Reposteria Nosara"
 business_location_name = " 250 meters northeast of the Nosara Sports Plaza, in front of the Isa Bakery 506 Nosara"
 business_sector = "Baked Goods"
 date = "2018-04-06T11:25:55Z"
