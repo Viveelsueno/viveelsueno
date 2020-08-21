@@ -6,10 +6,10 @@ date = "2018-05-01T05:34:56Z"
 external_url = ""
 graduation_year = ""
 masthead_image = ""
-phone_number = "8463 7299"
+phone_number = "(506) 8463 7299"
 sitemap_exclude = true
 teaser_image = "/uploads/2018/05/01/elena-gomez.jpg"
-teaser_logo = ""
+teaser_logo = "/uploads/2020/08/21/image37.jpg"
 title = "Elena Gomez"
 
 +++
