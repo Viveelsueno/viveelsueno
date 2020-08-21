@@ -9,7 +9,7 @@ masthead_image = ""
 phone_number = "(506) 8837 0126 / (506) 8840 8392"
 sitemap_exclude = true
 teaser_image = "/uploads/2018/05/01/jeanette-vargas-ramirez.jpg"
-teaser_logo = "/uploads/2018/05/29/jiron-transportes.jpg"
+teaser_logo = "/uploads/2020/08/21/image90.jpg"
 title = "Jeannette Vargas"
 
 +++
