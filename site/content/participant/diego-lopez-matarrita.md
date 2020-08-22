@@ -10,6 +10,6 @@ phone_number = "(506) 8662 4660"
 sitemap_exclude = true
 teaser_image = "/uploads/2018/05/01/diego-lopez-matarrita.jpg"
 teaser_logo = "/uploads/2020/08/21/image43.jpg"
-title = "Diego Lopez"
+title = "Diego Lopez Matarrita"
 
 +++
