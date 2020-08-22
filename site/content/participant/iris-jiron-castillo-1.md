@@ -2,7 +2,6 @@
 brand_name = "Tuk Tuk Express"
 business_location_name = "Nosara"
 business_sector = "Transportation"
-draft = true
 external_url = ""
 graduation_year = 2017
 phone_number = "(506) 8539 1974"
