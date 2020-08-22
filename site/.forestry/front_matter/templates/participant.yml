@@ -13,7 +13,7 @@ fields:
   config:
     required: true
     options:
-    - Accomodations
+    - Accommodations
     - Artisans
     - Agricultural Foods
     - Baked Goods
@@ -24,6 +24,7 @@ fields:
     - Clothing Stores
     - Construction and Renovations
     - Childcare Services
+    - Medical Services
     - English Classes
     - Electricians
     - General Maintenance and Gardening
