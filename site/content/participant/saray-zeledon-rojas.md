@@ -1,6 +1,6 @@
 +++
 brand_name = "Soda Monchas"
-business_location_name = "Esperanza, Main Street"
+business_location_name = "Esperanza, Calle Principal"
 business_sector = "Restaurants and Catering"
 date = "2018-04-06T11:55:50Z"
 external_url = "https://www.facebook.com/Soda-Monchas-1306643526059369/"
