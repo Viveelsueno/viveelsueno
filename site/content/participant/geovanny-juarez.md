@@ -1,12 +1,12 @@
 +++
-brand_name = "Almendros Cantina Esperanza, Nosara"
-business_location_name = "Esperanza"
+brand_name = "Saga Food Express"
+business_location_name = "Arenalas, Nosara"
 business_sector = "Restaurants and Catering"
-external_url = "https://www.facebook.com/Almendros-Cantina-271922466727584/"
+external_url = ""
 graduation_year = 2018
-phone_number = "4700-3937"
+phone_number = "(506) 8635 5577 / (506) 47024119"
 teaser_image = "/uploads/2019/07/15/viveelsueño_arianacrespo_213.JPG"
-teaser_logo = "/uploads/2019/07/15/Almendros.jpg"
+teaser_logo = "/uploads/2020/08/27/image80.jpg"
 title = "Adrian Marin"
 
 +++
