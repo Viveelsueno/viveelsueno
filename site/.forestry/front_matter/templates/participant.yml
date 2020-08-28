@@ -70,6 +70,11 @@ fields:
 - type: text
   name: external_url
   label: URL
+- type: text
+  name: email
+  label: Email
+  config:
+    required: false
 - type: select
   name: graduation_year
   config:
