@@ -2,6 +2,7 @@
 brand_name = "Mextico Pura Vida"
 business_location_name = "Playa Guiones, Nosara"
 business_sector = "Artisans"
+email = ""
 external_url = "https://www.facebook.com/Mextico-ART-590355944715746/"
 graduation_year = 2018
 phone_number = "(506) 8710 6243"
