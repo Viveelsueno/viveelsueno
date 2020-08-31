@@ -1,14 +1,32 @@
+{{ if .Params.external_url }}
+<a class="participant__teaser-link" target="_blank" href="{{ .Params.external_url }}">
+{{ end }}
 <div class="participant__teaser">
-  {{ if .Params.external_url }}
-  <a class="participant__teaser-link" target="_blank" href="{{ .Params.external_url }}">
-  {{ end }}
-    <div class="lazy participant__teaser-image" data-src="{{ .Params.teaser_image }}">
+  <div class="participant__teaser-container">
+    <div class="participant__teaser-left">
+      <h3 class="participant__teaser-business">{{ .Params.brand_name }}</h3>
+      <div class="participant__teaser-business-category">{{ i18n .Params.business_sector }}</div>
+      <div class="participant__teaser-business-location"><span style="float: left; margin-right: .5rem; margin-bottom: .5rem;" class="businesses__business-location-icon"></span>{{ .Params.business_location_name }}</div>
+
+      <div class="participant__teaser-owner-details">
+        <div class="lazy participant__teaser-image" data-src="{{ .Params.teaser_image }}"></div>
+        <div class="participant__teaser-title">
+          {{ .Title }}
+        </div>
+      </div>
+    </div>
+
+    <div class="participant__teaser-right">
       <div class="lazy participant__teaser-logo" data-src='{{ if and (ne .Params.teaser_logo "") (isset .Params "teaser_logo") }}{{ .Params.teaser_logo }}{{ else }}/img/Graduate.png{{ end }}'></div>
     </div>
-    <h3 class="participant__teaser-title">{{ .Title }}</h3>
-    <div class="participant__teaser-business">{{ .Params.brand_name }}</div>
-    <div class="participant__teaser-phone">{{ .Params.phone_number }}</div>
-  {{ if .Params.external_url }}
-  </a>
-  {{ end }}
+  </div>
+
+  <div class="participant__teaser-contact">
+    <div class="participant__teaser-contact-left">
+      {{ .Params.phone_number }}
+    </div>
+  </div>
 </div>
+{{ if .Params.external_url }}
+</a>
+{{ end }}

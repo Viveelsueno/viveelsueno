@@ -98,6 +98,7 @@ h2.businesses__title {
 .businesses__business-info {
   display: inline-block;
   font-size: 1rem;
+  max-width: 280px;
 
   @media (min-width: 421px) {
     margin-left: 1rem;

@@ -3,27 +3,11 @@
 {{ partial "masthead" . }}
 <main class="page" role="main">
   <div class="participants">
-  {{ range $graduation_year := .Site.Data.site.Years }}
-    <h2>{{ $graduation_year }}</h2>
-    {{ range sort (where $.Site.Pages.ByPublishDate "Section" "participant") "Params.title" "asc" }}
+    {{ range sort (where $.Site.Pages.ByPublishDate "Section" "participant") "Params.brand_name" "asc" }}
       {{ if eq .Kind "page" }}
-        {{ if eq .Params.graduation_year $graduation_year }}
-          {{ if ne .Params.phone_number "Unavailable" }}
-            {{ .Render "teaser" }}
-          {{ end }}
-        {{ end }}
+        {{ .Render "teaser" }}
       {{ end }}
     {{ end }}
-    {{ range sort (where $.Site.Pages.ByPublishDate "Section" "participant") "Params.title" "asc" }}
-      {{ if eq .Kind "page" }}
-        {{ if eq .Params.graduation_year $graduation_year }}
-          {{ if eq .Params.phone_number "Unavailable" }}
-            {{ .Render "teaser" }}
-          {{ end }}
-        {{ end }}
-      {{ end }}
-    {{ end }}
-  {{ end }}
   </div>
   {{ partial "donate" . }}
 </main>
