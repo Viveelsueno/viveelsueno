@@ -1,6 +1,6 @@
 [build]
-  command = "npm run fetch-instagram && npm run build"
+  command = "npm run build"
   publish = "dist"
 
 [context.deploy-preview]
-  command = "npm run fetch-instagram && npm run build-preview"
+  command = "npm run build-preview"
