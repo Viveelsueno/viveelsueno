@@ -1,4 +1,5 @@
 +++
+draft = true
 event_date = 2020-09-15T00:01:50Z
 location = "Zoom-contactar a  Ileana por detalles"
 sitemap_exclude = true
