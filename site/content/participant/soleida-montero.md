@@ -6,7 +6,7 @@ email = ""
 external_url = ""
 graduation_year = 2019
 phone_number = "+506 8310 7585"
-teaser_image = ""
+teaser_image = "/uploads/2020/09/22/soleida.JPG"
 teaser_logo = "/uploads/2020/09/03/image96.jpg"
 title = "Soleida Montero"
 
