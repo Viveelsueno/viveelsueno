@@ -8,6 +8,6 @@ graduation_year = 2019
 phone_number = "+506 8533 4818"
 teaser_image = ""
 teaser_logo = "/uploads/2020/09/04/image56.jpg"
-title = "Shirley Cabezas Rojas"
+title = "Shirleny Cabezas Rojas"
 
 +++
