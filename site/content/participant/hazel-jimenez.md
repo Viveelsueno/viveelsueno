@@ -6,7 +6,7 @@ email = ""
 external_url = ""
 graduation_year = 2019
 phone_number = "+506 7078 7604"
-teaser_image = ""
+teaser_image = "/uploads/2020/09/22/hazel.jpg"
 teaser_logo = "/uploads/2020/09/03/image36.jpg"
 title = "Hazel Jiménez"
 
