@@ -1,5 +1,5 @@
 +++
-brand_name = "Pollo Frito Pipin- Fried Chicken"
+brand_name = "Pollo Frito Pipin - Fried Chicken"
 business_location_name = "200m west of Paloma Supermarket, Nosara"
 business_sector = "Restaurants and Catering"
 email = ""
