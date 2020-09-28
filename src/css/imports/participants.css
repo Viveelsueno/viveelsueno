@@ -78,6 +78,7 @@ h2.participants__title {
   text-align: center;
   flex: 1 1 100%;
   align-self: flex-end;
+  border-top: 1px solid #ccc;
 }
 
 .participant__teaser-left {
@@ -135,4 +136,42 @@ h2.participants__title {
   font-size: 1rem;
   margin-left: .5rem;
   margin-bottom: 1rem;
+}
+
+.participant__teaser-contact-left {
+  flex: 1 1;
+}
+
+.participant__teaser-contact-left a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.participant__teaser-contact-left img {
+  width: auto;
+  height: 24px;
+}
+
+.participant__teaser-contact-right {
+  flex: 1 1;
+  height: 24px;
+  line-height: 24px;
+  vertical-align: top;
+}
+
+.participant__teaser-contact-right a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.participant__teaser-contact-right svg {
+  display: inline-block;
+  height: 24px;
+}
+
+.participant__teaser-contact-right span {
+  display: inline-block;
+  height: 24px;
+  vertical-align: top;
+  margin-left: .25rem;
 }
