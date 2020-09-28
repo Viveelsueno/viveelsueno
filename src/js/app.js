@@ -93,8 +93,7 @@ $(document).ready(() => {
     const $this = $(this);
     const phone = $this.data('phone')
       .replace(/(^\+\(506\)\s)|^\+506\s/g, '')
-      .replace(/\s|\||\-/g, '')
-
+      .replace(/\s|\||\-/g, '');
     const prefix = $this.attr('class') === 'participant__teaser-contact-wa'
       ? 'whatsapp://send?phone='
       : 'tel:';
