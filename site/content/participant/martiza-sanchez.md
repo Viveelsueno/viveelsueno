@@ -8,6 +8,6 @@ graduation_year = 2015
 phone_number = "+506 2682 1133"
 teaser_image = "/uploads/2020/07/27/maritza-sanchez-2016.jpg"
 teaser_logo = "/uploads/2020/07/27/directory_restaurants___el_manglar.jpg"
-title = "Martiza Sanchez"
+title = "Maritza Sanchez"
 
 +++
