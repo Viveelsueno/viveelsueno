@@ -1,15 +1,16 @@
 +++
 brand_name = "Transportes Jiron"
 business_location_name = "Santa Marta"
-business_sector = "Transporation"
-date = "2018-05-01T04:51:24Z"
-external_url = "mailto:jairojiron79@gmail.com"
+business_sector = "Transportation"
+date = "2018-05-01T04:47:25Z"
+email = "jairojiron79@gmail.com"
+external_url = ""
 graduation_year = 2017
 masthead_image = ""
-phone_number = "(506) 8840-8392"
+phone_number = "+506 8837 0126"
 sitemap_exclude = true
 teaser_image = "/uploads/2018/05/01/jeanette-vargas-ramirez.jpg"
-teaser_logo = "/uploads/2018/05/29/jiron-transportes.jpg"
-title = "Jeannette Vargas Ramirez"
+teaser_logo = "/uploads/2020/08/21/image90.jpg"
+title = "Jeannette Vargas"
 
 +++

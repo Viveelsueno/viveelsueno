@@ -1,12 +1,13 @@
 +++
-brand_name = "Centro de Pinturas Los Arenales (paint supplies)"
-business_location_name = "Nosara"
+brand_name = "Centro de Pinturas Los Arenales - Paint Supplies"
+business_location_name = "Arenales, Nosara"
 business_sector = "Paint Services"
-external_url = ""
+email = ""
+external_url = "https://www.facebook.com/laduradera/"
 graduation_year = 2018
-phone_number = "8823-9128 or 2682-0002"
+phone_number = "+506 2682 0002"
 teaser_image = "/uploads/2019/06/24/viveelsueño_arianacrespo_199.JPG"
-teaser_logo = "/uploads/2019/07/15/VES Grad Logo.jpg"
+teaser_logo = "/uploads/2020/09/01/image59.png"
 title = "Cruz Maria Rosales Dinarte"
 
 +++

@@ -1,12 +1,13 @@
 +++
 brand_name = "Cabañas Las Delicias"
-business_location_name = "Las Delicias, Garza"
-business_sector = "Accomodations"
+business_location_name = "Delicias de Garza"
+business_sector = "Accommodations"
+email = ""
 external_url = "https://www.facebook.com/hotellasdeliciascr/"
-graduation_year = 2018
-phone_number = "8310-2616"
+graduation_year = 2019
+phone_number = "+506 8310 2616"
 teaser_image = "/uploads/2019/05/10/viveelsueño_arianacrespo_229.JPG"
-teaser_logo = "/uploads/2019/05/10/CABANAS-DELICIAS.jpg"
+teaser_logo = "/uploads/2020/08/27/image27.jpg"
 title = "Fernando Vargas"
 
 +++

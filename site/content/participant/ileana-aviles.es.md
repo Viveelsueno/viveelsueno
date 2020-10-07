@@ -1,15 +1,16 @@
 +++
-brand_name = "Pura Vida Nosara ATV Rentals"
-business_location_name = "Nosara"
+brand_name = "Pura Vida ATV Quad Tours and Rentals"
+business_location_name = "Inside Hotel Olas Verdes"
 business_sector = "ATV & Quad Tours & Rentals"
-date = "2018-05-15T14:52:42Z"
+date = "2018-05-15T14:51:55Z"
+email = ""
 external_url = "https://www.facebook.com/Pura-Vida-Nosara-ATV-547295672099398/"
 graduation_year = 2015
 masthead_image = ""
-phone_number = " 2682-0283 or 8484-3413 "
+phone_number = "+506 8484 3413"
 sitemap_exclude = true
 teaser_image = "/uploads/2018/05/15/ileana.png"
-teaser_logo = "/uploads/2018/05/26/ileana-logo.png"
+teaser_logo = "/uploads/2020/07/27/pura-vida-atv.jpg"
 title = "Ileana Aviles"
 
 +++
