@@ -1,7 +1,7 @@
-{{ if .Params.external_url }}
-<a class="participant__teaser-link" target="_blank" href="{{ .Params.external_url }}">
-{{ end }}
 <div class="participant__teaser">
+  {{ if .Params.external_url }}
+  <a class="participant__teaser-link" target="_blank" href="{{ .Params.external_url }}">
+  {{ end }}
   <div class="participant__teaser-container">
     <div class="participant__teaser-left">
       <h3 class="participant__teaser-business">{{ .Params.brand_name }}</h3>
@@ -15,6 +15,9 @@
         </div>
       </div>
     </div>
+    {{ if .Params.external_url }}
+    </a>
+    {{ end }}
 
     <div class="participant__teaser-right">
       <div class="lazy participant__teaser-logo" data-src='{{ if and (ne .Params.teaser_logo "") (isset .Params "teaser_logo") }}{{ .Params.teaser_logo }}{{ else }}/img/Graduate.png{{ end }}'></div>
@@ -23,10 +26,15 @@
 
   <div class="participant__teaser-contact">
     <div class="participant__teaser-contact-left">
-      {{ .Params.phone_number }}
+      <a data-phone="{{ .Params.phone_number }}" class="participant__teaser-contact-wa" href="">
+        <img src="/img/WhatsApp.png" />
+      </a>
+    </div>
+    <div class="participant__teaser-contact-right">
+      <a data-phone="{{ .Params.phone_number }}" class="participant__teaser-contact-phone" href="">
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path></svg>
+        <span>{{ i18n "phone" }}</span>
+      </a>
     </div>
   </div>
 </div>
-{{ if .Params.external_url }}
-</a>
-{{ end }}

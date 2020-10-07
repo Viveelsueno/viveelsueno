@@ -278,5 +278,9 @@
   {
     "id": "Seniors Activities",
     "translation": "Actividades para personas mayores"
+  },
+  {
+    "id": "phone",
+    "translation": "Llamar"
   }
 ]

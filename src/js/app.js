@@ -89,6 +89,17 @@ $(document).ready(() => {
     }
   });
 
+  $('.participant__teaser-contact-wa, .participant__teaser-contact-phone').each(function() {
+    const $this = $(this);
+    const phone = $this.data('phone')
+      .replace(/(^\+\(506\)\s)|^\+506\s/g, '')
+      .replace(/\s|\||\-/g, '');
+    const prefix = $this.attr('class') === 'participant__teaser-contact-wa'
+      ? 'whatsapp://send?phone='
+      : 'tel:';
+    $this.attr('href', `${prefix}+506${phone}`);
+  });
+
   if (nVisibleEvents === 0) {
     $('.events').hide();
   }
@@ -179,22 +190,6 @@ $(document).ready(() => {
       });
     }
   });
-
-  const buildInstagramFeed = () => {
-    fetch('/instagram.json')
-    .then((r) => r.json())
-    .then((j) => j.sources.slice(0, 6).forEach((image) => {
-      $('.socials__instagram-feed').append(
-        $('<a/>', {
-          class: 'socials__instagram-photo',
-          href: image.link,
-          target: '_blank'
-        }).css({
-          backgroundImage: 'url(' + image.src + ')'
-        }));
-    }));
-  };
-  buildInstagramFeed();
 
   const smoothScrollingTo = (target) => {
     const $target = $(target);
