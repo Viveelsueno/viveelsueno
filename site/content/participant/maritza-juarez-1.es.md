@@ -1,13 +1,13 @@
 +++
-brand_name = "Ganadería el Rosario y Marvin Sánchez Ganadera el Rosario"
-business_location_name = "Rio Montaña, Nosara"
+brand_name = "Ganaderia el Rosario De La Fortuna S.A."
+business_location_name = "La Fortuna de Guajiniquil, Santa Cruz, Gte"
 business_sector = "Farms and Farm Products"
-email = ""
+email = "ganaderiaelrosario.lafortuna@gmail.com"
 external_url = ""
 graduation_year = 2019
-phone_number = "+506 8572 0382"
+phone_number = "+506 85306311"
 teaser_image = ""
 teaser_logo = ""
-title = "Maritza Juarez"
+title = "Marvin y Maritza Sanchez"
 
 +++
