@@ -2,7 +2,6 @@
 brand_name = "Ganadería el Rosario De La Fortuna S.A."
 business_location_name = "La Fortuna de Guajiniquil, Santa Cruz, GTE"
 business_sector = "Farms and Farm Products"
-draft = true
 email = "ganaderielrosario.lafortuna@gmail.com"
 external_url = ""
 graduation_year = 2019
