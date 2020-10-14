@@ -2,7 +2,6 @@
 brand_name = "Activa Sports "
 business_location_name = "Nosara"
 business_sector = "Community Services"
-draft = true
 email = ""
 external_url = "https://www.facebook.com/Activa-Sports-352437055469074"
 graduation_year = 2019
