@@ -1,5 +1,5 @@
 +++
-brand_name = "Fe de Muebles- Joinery & Woodworking Shop"
+brand_name = "Fe Muebles- (Muebleria/Furniture design)"
 business_location_name = "Arenales, Nosara"
 business_sector = "Construction and Renovations"
 email = ""
