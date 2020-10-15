@@ -7,7 +7,7 @@ external_url = ""
 graduation_year = 2019
 phone_number = "+506 8530 6311"
 teaser_image = ""
-teaser_logo = ""
+teaser_logo = "/uploads/2020/10/15/ganaderia-el-rosario.jpeg"
 title = "Marvin y Maritza Sanchez"
 
 +++
